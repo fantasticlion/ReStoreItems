@@ -1,38 +1,83 @@
-.App {
+h1 {
   text-align: center;
+  font-size: 4em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-size: 1.8em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  font-size: 1.5em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+li {
+  font-size: 1.2em;
+  margin-bottom: 0.75em;
+  font-weight: 550;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.favorites {
+  background-color: rgb(185, 146, 112);
+  width: 15em;
+  position: fixed;
+  top: 4em;
+  right: 0;
+  padding-bottom: 2em;
+  padding-left: 2.5em;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+.favorites input{
+  margin-bottom: 0.9em;
+}
+
+.favorites button {
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: rgb(224, 183, 102);
+  border-color: black;
+  border-width: 0.15em;
+  border-radius: 1em;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+}
+
+.product {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.item {
+  background-color:rgb(178, 195, 254);
+  width: 35em;
+  margin: 1.5em;
+  padding: 2em;
+  border-radius: 1.5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.item img {
+  float: left;
+  max-width: 20em;
+  max-height: 20em;
+  object-fit: cover;
+  margin-right: 4em;
+}
+
+.item button {
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: rgb(183, 231, 255);
+  border-color:rgb(0, 0, 0);
+  border-width: 0.18em;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  margin-right: 1em;
+  float: right;
 }
