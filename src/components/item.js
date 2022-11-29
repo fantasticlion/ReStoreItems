@@ -1,6 +1,6 @@
 export default function ProductItem(props) {   
   return (
-	  <div className="item">
+    <div className="item">
       <h2>{props.info["name"]}</h2>
       <img src={props.info["image_link"]}></img>
       <ul>
