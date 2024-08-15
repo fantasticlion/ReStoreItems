@@ -70,7 +70,7 @@ function App() {
     <div className = "App">
       <div className = "product-cards">
         <h1>Green Country ReStores &nbsp;
-          <img src="https://images.squarespace-cdn.com/content/v1/60148fcfca55b203f218fe44/78437348-4849-4744-9026-560f2ae90f51/GCReStoreLogoWhite.png?format=1500w" 
+          <img src="https://images.squarespace-cdn.com/content/v1/60148fcfca55b203f218fe44/49cb0b5c-21d6-4bf8-8f74-544cd98ae908/GC_ReStoreLogoBlackHome.png" 
             width="54" height="66" padding="100"></img>
         </h1>
         <div className = "product"> {
