@@ -12,9 +12,9 @@ function App() {
   const [total, setTotal] = useState(0);
 
   const allSorts = {
-    productType: {method: (a, b) => (parseInt(a.id) < parseInt(b.id) ? -1 : 1)},
-    ascending: {method: (a, b) => (parseInt(a.price) < parseInt(b.price) ? -1 : 1)},
-    descending: {method: (a, b) => (parseInt(a.price) > parseInt(b.price) ? -1 : 1)},
+    productType: {method: (a, b) => (parseFloat(a.id) < parseFloat(b.id) ? -1 : 1)},
+    ascending: {method: (a, b) => (parseFloat(a.price) < parseFloat(b.price) ? -1 : 1)},
+    descending: {method: (a, b) => (parseFloat(a.price) > parseFloat(b.price) ? -1 : 1)},
   };
 
   const allFilters = 
@@ -33,7 +33,7 @@ function App() {
   const updateFavorites = (name, price) => {
     let tempFavorites = favorites;
     tempFavorites[name] = tempFavorites[name] === 1 ? -1 : 1;
-    setTotal(total + tempFavorites[name] * parseInt(price));
+    setTotal(total + tempFavorites[name] * parseFloat(price));
     setFavorites(tempFavorites);
   };
 
