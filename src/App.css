@@ -8,7 +8,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 li {
@@ -80,4 +80,8 @@ button:hover {
   margin-top: 1em;
   margin-right: 1em;
   float: right;
+}
+
+.label {
+  font-size: 0.5em;
 }
