@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-stencil/static/css/main.a43f6185.css",
-    "main.js": "/react-stencil/static/js/main.76128610.js",
-    "index.html": "/react-stencil/index.html",
-    "main.a43f6185.css.map": "/react-stencil/static/css/main.a43f6185.css.map",
-    "main.76128610.js.map": "/react-stencil/static/js/main.76128610.js.map"
+    "main.css": "/ReStoreItems/static/css/main.a43f6185.css",
+    "main.js": "/ReStoreItems/static/js/main.76128610.js",
+    "index.html": "/ReStoreItems/index.html",
+    "main.a43f6185.css.map": "/ReStoreItems/static/css/main.a43f6185.css.map",
+    "main.76128610.js.map": "/ReStoreItems/static/js/main.76128610.js.map"
   },
   "entrypoints": [
     "static/css/main.a43f6185.css",
