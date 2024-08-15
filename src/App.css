@@ -9,6 +9,7 @@ h2 {
 
 h3 {
   font-size: 1.2em;
+  line-height: 0em;
 }
 
 li {
@@ -83,5 +84,5 @@ button:hover {
 }
 
 label {
-  font-size: 0.4em;
+  line-height: 0em;
 }
