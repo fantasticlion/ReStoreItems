@@ -55,7 +55,7 @@ button:hover {
 }
 
 .item {
-  background-color:rgb(178, 195, 254);
+  background-color:rgb(44,176,211,255);
   width: 35em;
   margin: 1.5em;
   padding: 2em;
@@ -73,7 +73,7 @@ button:hover {
 .item button {
   font-size: 1.2em;
   font-weight: bold;
-  background-color: rgb(183, 231, 255);
+  background-color: rgb(198,214,43,255);
   border-color:rgb(0, 0, 0);
   border-width: 0.18em;
   border-radius: 1em;
