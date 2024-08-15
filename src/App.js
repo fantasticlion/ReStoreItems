@@ -7,7 +7,7 @@ function App() {
   const [favorites, setFavorites] = useState(productsData.reduce((object, key) => 
     ({ ...object, [key.name]: -1}), {}));
   const [sort, setSort] = useState("productType");
-  const [filter, setFilter] = useState({"release_time": [], "product_type": []});
+  const [filter, setFilter] = useState({"release_time": [], "product_type": [], "processor": []});
   const [filterData, setFilterData] = useState(productsData);
   const [total, setTotal] = useState(0);
 
@@ -49,7 +49,7 @@ function App() {
     filter[filterType] = [...tempFilters];
     setFilter(filter);
 
-    const size = filter["release_time"].length + filter["product_type"].length;
+    const size = filter["release_time"].length + filter["product_type"].length + filter["processor"].length;
     if (size === 0 || size === allFilters.length) {
       setFilterData(productsData);
     } 
