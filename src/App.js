@@ -27,7 +27,7 @@ function App() {
     {type: "product_type", value: "Furniture"},
     {type: "product_type", value: "Clothes"}, 
     {type: "product_type", value: "Accessories"},
-    {type: "product_type", value: "Fitness"}
+    {type: "product_type", value: "Fitness"},
     {type: "product_type", value: "Other"}]
 
   const updateFavorites = (name, price) => {
