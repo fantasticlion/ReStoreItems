@@ -45,6 +45,7 @@ button:hover {
 .favorites button {
   font-size: 1.2em;
   font-weight: bold;
+  color: rgb(32, 59, 93);
   background-color: rgb(198,214,43,255);
   border-color: black;
   border-width: 0.15em;
@@ -77,6 +78,7 @@ button:hover {
 .item button {
   font-size: 1.2em;
   font-weight: bold;
+  color: rgb(32, 59, 93);
   background-color: rgb(198,214,43,255);
   border-color:rgb(0, 0, 0);
   border-width: 0.18em;
@@ -89,5 +91,4 @@ button:hover {
 
 label {
   line-height: 0em;
-  color: rgb(32, 59, 93);
 }
