@@ -69,8 +69,8 @@ function App() {
   return (
     <div className = "App">
       <div className = "product-cards">
-        <h1>ReStore Rack &nbsp;
-          <img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/440802919_985217343611101_8422290641784676598_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=UzsRQ3CoQVoQ7kNvgGFCRLn&_nc_ht=scontent-dfw5-1.xx&oh=00_AYAJ0Jg11hTfXLmn3aE_OwLK9R-WxrnNETpIop7Gek6_3A&oe=66C411DC" 
+        <h1>Green Country Habitat ReStores &nbsp;
+          <img src="https://images.squarespace-cdn.com/content/v1/60148fcfca55b203f218fe44/78437348-4849-4744-9026-560f2ae90f51/GCReStoreLogoWhite.png?format=1500w" 
             width="54" height="66" padding="100"></img>
         </h1>
         <div className = "product"> {
