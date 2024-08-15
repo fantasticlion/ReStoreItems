@@ -24,9 +24,10 @@ function App() {
     {type: "processor", value: "ReStore-Claremore"},
     {type: "release_time", value: "8/14"}, 
     {type: "release_time", value: "8/15"}, 
-    {type: "product_type", value: "Furniture"}, 
+    {type: "product_type", value: "Furniture"},
     {type: "product_type", value: "Clothes"}, 
-    {type: "product_type", value: "Accessories"}, 
+    {type: "product_type", value: "Accessories"},
+    {type: "product_type", value: "Fitness"}
     {type: "product_type", value: "Other"}]
 
   const updateFavorites = (name, price) => {
@@ -106,6 +107,8 @@ function App() {
             <label> Clothes </label><br/>
             <input type = "checkbox" value = "Accessories" onClick = {() => updateFilter("Accessories", "product_type")}/> 
             <label> Accessories </label><br/>
+            <input type = "checkbox" value = "Fitness" onClick = {() => updateFilter("Fitness", "product_type")}/> 
+            <label> Fitness </label><br/>
             <input type = "checkbox" value = "Other" onClick = {() => updateFilter("Other", "product_type")}/> 
             <label> Other </label><br/>
             
