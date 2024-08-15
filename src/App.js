@@ -18,12 +18,12 @@ function App() {
   };
 
   const allFilters = 
-    [{type: "release_time", value: "Released in 2022"}, 
-    {type: "release_time", value: "Not Released in 2022"}, 
-    {type: "product_type", value: "iphone"}, 
-    {type: "product_type", value: "iPad"}, 
-    {type: "product_type", value: "Notebook"}, 
-    {type: "product_type", value: "Desktop"}]
+    [{type: "release_time", value: "8/14"}, 
+    {type: "release_time", value: "8/15"}, 
+    {type: "product_type", value: "Furniture"}, 
+    {type: "product_type", value: "Clothes"}, 
+    {type: "product_type", value: "Accessories"}, 
+    {type: "product_type", value: "Other"}]
 
   const updateFavorites = (name, price) => {
     let tempFavorites = favorites;
