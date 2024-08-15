@@ -94,20 +94,20 @@ function App() {
 
           <div className="filtering">
             <h3>Product Type:</h3>
-            <input type = "checkbox" value = "iPhone" onClick = {() => updateFilter("iPhone", "product_type")}/>
-            <label> iPhone </label><br/>
-            <input type = "checkbox" value = "iPad" onClick = {() => updateFilter("iPad", "product_type")}/> 
-            <label> iPad </label><br/>
-            <input type = "checkbox" value = "Notebook" onClick = {() => updateFilter("Notebook", "product_type")}/> 
-            <label> Notebook </label><br/>
-            <input type = "checkbox" value = "Desktop" onClick = {() => updateFilter("Desktop", "product_type")}/> 
-            <label> Desktop </label><br/>
+            <input type = "checkbox" value = "Furniture" onClick = {() => updateFilter("Furniture", "product_type")}/>
+            <label> Furniture </label><br/>
+            <input type = "checkbox" value = "Clothes" onClick = {() => updateFilter("Clothes", "product_type")}/> 
+            <label> Clothes </label><br/>
+            <input type = "checkbox" value = "Accessories" onClick = {() => updateFilter("Accessories", "product_type")}/> 
+            <label> Accessories </label><br/>
+            <input type = "checkbox" value = "Other" onClick = {() => updateFilter("Other", "product_type")}/> 
+            <label> Other </label><br/>
             
             <h3>Release Time:</h3>
-            <input type = "checkbox" value = "Released in 2022" onClick = {() => updateFilter("Released in 2022", "release_time")}/> 
-            <label> Released in 2022 </label><br/>
-            <input type = "checkbox" value = "Not Released in 2022" onClick = {() => updateFilter("Not Released in 2022", "release_time")}/> 
-            <label> Not Released in 2022 </label><br/>
+            <input type = "checkbox" value = "8/14" onClick = {() => updateFilter("8/14", "release_time")}/> 
+            <label> 8/14 </label><br/>
+            <input type = "checkbox" value = "8/15" onClick = {() => updateFilter("8/15", "release_time")}/> 
+            <label> 8/15 </label><br/>
           </div>
         
           <div>
