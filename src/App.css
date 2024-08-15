@@ -23,7 +23,7 @@ button:hover {
 }
 
 .favorites {
-  background-color: rgb(185, 146, 112);
+  background-color: rgb(44,176,211,255);
   width: 15em;
   position: fixed;
   top: 4em;
@@ -41,7 +41,7 @@ button:hover {
 .favorites button {
   font-size: 1.2em;
   font-weight: bold;
-  background-color: rgb(224, 183, 102);
+  background-color: rgb(198,214,43,255);
   border-color: black;
   border-width: 0.15em;
   border-radius: 1em;
