@@ -1,13 +1,10 @@
-# Development
+# ReStoreItems
 
 ### Link to Deployed Website
-https://fantasticlion.github.io/react-stencil/
+https://fantasticlion.github.io/ReStoreItems/
 
 ### Goal and Value of the Application
 The application allows users to browse different Apple products and sort them by price and filter them by product type or whether they are released in 2022. Users can also pick their favorite products.
-
-### Usability Principles Considered
-This application is pretty easy to navigate. Users sort the products by product types or price by clicking the radio buttons under "Sort By" and filter the products by product types or release time by clicking the check boxes under "Product Type" and "Release Time". Users click the button in every product card to add or remove products to/from their favortie list and press the reset button to reset the page.
 
 ### Organization of Components
 These components are included in this application：
