@@ -1,21 +1,25 @@
 h1 {
   text-align: center;
   font-size: 4em;
+  color: rgb(32, 59, 93);
 }
 
 h2 {
   font-size: 1.8em;
+  color: rgb(32, 59, 93);
 }
 
 h3 {
   font-size: 1.2em;
   line-height: 0em;
+  color: rgb(32, 59, 93);
 }
 
 li {
   font-size: 1.2em;
   margin-bottom: 0.75em;
   font-weight: 550;
+  color: rgb(32, 59, 93);
 }
 
 button:hover {
@@ -85,4 +89,5 @@ button:hover {
 
 label {
   line-height: 0em;
+  color: rgb(32, 59, 93);
 }
