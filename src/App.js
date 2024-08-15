@@ -18,7 +18,11 @@ function App() {
   };
 
   const allFilters = 
-    [{type: "release_time", value: "8/14"}, 
+   [{type: "processor", value: "ReStore-Tulsa"},
+    {type: "processor", value: "ReStore Rack"},
+    {type: "processor", value: "ReStore-Broken Arrow"},
+    {type: "processor", value: "ReStore-Claremore"},
+    {type: "release_time", value: "8/14"}, 
     {type: "release_time", value: "8/15"}, 
     {type: "product_type", value: "Furniture"}, 
     {type: "product_type", value: "Clothes"}, 
@@ -54,13 +58,15 @@ function App() {
         (filter["release_time"].includes(item["release_time"]) 
         || filter["release_time"].length === 0) && 
         (filter["product_type"].includes(item["product_type"]) 
-        || filter["product_type"].length === 0)));
+        || filter["product_type"].length === 0) && 
+        (filter["processor"].includes(item["processor"]) 
+        || filter["processor"].length === 0)));
     }
   }
 
   const resetPage = () => {
     setSort("productType");
-    setFilter({"release_time": [], "product_type": []});
+    setFilter({"release_time": [], "product_type": [], "processor": []});
     setFilterData(productsData);
     setFavorites(productsData.reduce((object, key) => ({ ...object, [key.name]: -1}), {}));
     setTotal(0);
@@ -108,6 +114,16 @@ function App() {
             <label> 8/14 </label><br/>
             <input type = "checkbox" value = "8/15" onClick = {() => updateFilter("8/15", "release_time")}/> 
             <label> 8/15 </label><br/>
+
+            <h3>Processor:</h3>
+            <input type = "checkbox" value = "ReStore-Tulsa" onClick = {() => updateFilter("ReStore-Tulsa", "processor")}/> 
+            <label> ReStore-Tulsa </label><br/>
+            <input type = "checkbox" value = "ReStore Rack" onClick = {() => updateFilter("ReStore Rack", "processor")}/> 
+            <label> ReStore Rack </label><br/>
+            <input type = "checkbox" value = "ReStore Broken Arrow" onClick = {() => updateFilter("ReStore Broken Arrow", "processor")}/> 
+            <label> ReStore Broken Arrow </label><br/>
+            <input type = "checkbox" value = "ReStore Claremore" onClick = {() => updateFilter("ReStore Claremore", "processor")}/> 
+            <label> ReStore Claremore </label><br/>
           </div>
         
           <div>
