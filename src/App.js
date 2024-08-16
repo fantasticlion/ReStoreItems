@@ -135,8 +135,8 @@ function App() {
             </div>
           
             <div>
-              <h3>Favorites:</h3>
-              <label>Total Price: ${total}</label>
+              <h3>Total Price:</h3>
+              <label>${total}</label>
             </div>
             <button onClick={() => resetPage()}>{"Reset"}</button>
           </form>
