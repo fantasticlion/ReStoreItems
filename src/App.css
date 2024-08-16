@@ -91,7 +91,7 @@ button:hover {
 
 .toggle-button {
   position: fixed;
-  top: 2em;
+  top: 1em;
   right: 2em;
   font-size: 1.2em;
   font-weight: bold;
