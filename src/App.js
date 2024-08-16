@@ -81,7 +81,7 @@ function App() {
           <img src="https://images.squarespace-cdn.com/content/v1/60148fcfca55b203f218fe44/49cb0b5c-21d6-4bf8-8f74-544cd98ae908/GC_ReStoreLogoBlackHome.png" 
             height="66" padding="100" alt="ReStore Logo"></img>
         </h1>
-        <button onClick={() => setShowNav(!showNav)} style={{ position: 'absolute', top: 10, right: 10 }}>
+        <button onClick={() => setShowNav(!showNav)} className="toggle-button">
           {showNav ? 'Hide Filters' : 'Show Filters'}
         </button>
         <div className="product"> {
