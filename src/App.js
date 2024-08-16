@@ -10,7 +10,7 @@ function App() {
   const [filter, setFilter] = useState({"release_time": [], "product_type": [], "processor": []});
   const [filterData, setFilterData] = useState(productsData);
   const [total, setTotal] = useState(0);
-  const [showNav, setShowNav] = useState(true); // State to manage navigation bar visibility
+  const [showNav, setShowNav] = useState(false); // Set to false to hide filters by default
 
   const allSorts = {
     productType: { method: (a, b) => (parseFloat(a.id) < parseFloat(b.id) ? -1 : 1) },
