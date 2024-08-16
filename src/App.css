@@ -38,7 +38,7 @@ button:hover {
   border-bottom-left-radius: 1em;
 }
 
-.favorites input{
+.favorites input {
   margin-bottom: 0.9em;
 }
 
@@ -60,7 +60,7 @@ button:hover {
 }
 
 .item {
-  background-color:rgb(44,176,211,255);
+  background-color: rgb(44,176,211,255);
   width: 35em;
   margin: 1.5em;
   padding: 2em;
@@ -80,7 +80,7 @@ button:hover {
   font-weight: bold;
   color: rgb(32, 59, 93);
   background-color: rgb(198,214,43,255);
-  border-color:rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
   border-width: 0.18em;
   border-radius: 1em;
   padding: 0.5em 1em;
@@ -97,7 +97,7 @@ button:hover {
   font-weight: bold;
   color: rgb(32, 59, 93);
   background-color: rgb(198,214,43,255);
-  border-color:rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
   border-width: 0.12em;
   border-radius: 0.67em;
   padding: 0.33em 0.67em;
@@ -106,4 +106,33 @@ button:hover {
 
 label {
   line-height: 0em;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .favorites {
+    width: 100%;
+    position: static;
+    margin-bottom: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 0;
+  }
+
+  .toggle-button {
+    position: static;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .item {
+    width: 100%;
+    margin: 1em 0;
+  }
+
+  .item img {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
 }
