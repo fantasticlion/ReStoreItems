@@ -73,6 +73,7 @@ button:hover {
   max-height: 20em;
   object-fit: cover;
   margin-right: 4em;
+  margin-bottom: 4em;
 }
 
 .item button {
