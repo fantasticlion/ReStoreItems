@@ -24,7 +24,8 @@ function App() {
     {type: "processor", value: "ReStore-Broken Arrow"},
     {type: "processor", value: "ReStore-Claremore"},
     {type: "release_time", value: "8/14"}, 
-    {type: "release_time", value: "8/15"}, 
+    {type: "release_time", value: "8/15"},
+    {type: "release_time", value: "8/16"},
     {type: "product_type", value: "Furniture"},
     {type: "product_type", value: "Clothes"}, 
     {type: "product_type", value: "Accessories"},
@@ -122,6 +123,8 @@ function App() {
               <label> 8/14 </label><br/>
               <input type="checkbox" value="8/15" onClick={() => updateFilter("8/15", "release_time")}/> 
               <label> 8/15 </label><br/>
+              <input type="checkbox" value="8/16" onClick={() => updateFilter("8/16", "release_time")}/> 
+              <label> 8/16 </label><br/>
 
               <h3>Processor:</h3>
               <input type="checkbox" value="ReStore-Tulsa" onClick={() => updateFilter("ReStore-Tulsa", "processor")}/> 
