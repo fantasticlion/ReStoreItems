@@ -97,7 +97,7 @@ function App() {
             <div className="sorting">
               <h3>Sort By:</h3>
               <input className="jss4" type="radio" value="productType" defaultChecked name="sort" onClick={() => setSort("productType")}></input>
-              <label> Product Type </label><br/>
+              <label> Product Date </label><br/>
               <input className="jss4" type="radio" value="ascending" name="sort" onClick={() => setSort("ascending")}></input>
               <label> Price: Ascending </label><br/>
               <input className="jss4" type="radio" value="descending" name="sort" onClick={() => setSort("descending")}></input>
