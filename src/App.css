@@ -92,7 +92,7 @@ button:hover {
 .toggle-button {
   position: fixed;
   top: 2em;
-  right: 1em;
+  right: 2em;
   font-size: 0.8em;
   font-weight: bold;
   color: rgb(32, 59, 93);
