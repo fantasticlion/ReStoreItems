@@ -128,10 +128,10 @@ function App() {
               <label> ReStore-Tulsa </label><br/>
               <input type="checkbox" value="ReStore Rack" onClick={() => updateFilter("ReStore Rack", "processor")}/> 
               <label> ReStore Rack </label><br/>
-              <input type="checkbox" value="ReStore Broken Arrow" onClick={() => updateFilter("ReStore Broken Arrow", "processor")}/> 
-              <label> ReStore Broken Arrow </label><br/>
-              <input type="checkbox" value="ReStore Claremore" onClick={() => updateFilter("ReStore Claremore", "processor")}/> 
-              <label> ReStore Claremore </label><br/>
+              <input type="checkbox" value="ReStore-Broken Arrow" onClick={() => updateFilter("ReStore-Broken Arrow", "processor")}/> 
+              <label> ReStore-Broken Arrow </label><br/>
+              <input type="checkbox" value="ReStore-Claremore" onClick={() => updateFilter("ReStore-Claremore", "processor")}/> 
+              <label> ReStore-Claremore </label><br/>
             </div>
           
             <div>
