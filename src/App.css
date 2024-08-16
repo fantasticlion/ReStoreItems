@@ -112,17 +112,24 @@ label {
 @media (max-width: 768px) {
   .favorites {
     width: 100%;
-    position: static;
-    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
     padding-left: 1em;
     padding-right: 1em;
     border-radius: 0;
+    z-index: 1000;
   }
 
   .toggle-button {
-    position: static;
-    display: block;
-    margin: 10px auto;
+    position: fixed;
+    top: 2em;
+    right: 2em;
+    z-index: 1001;
+  }
+
+  .product {
+    margin-top: 5em; /* Adjust this value if needed to avoid overlap with the navigation bar */
   }
 
   .item {
