@@ -77,14 +77,14 @@ function App() {
   }
 
   return (
-
-          
+      
+    <div className="App">
       <nav>
         <ul>
             <li class="logo">
                 <a href="https://greencountryhabitat.org/">
                     <img src="https://images.squarespace-cdn.com/content/v1/60148fcfca55b203f218fe44/78437348-4849-4744-9026-560f2ae90f51/GCReStoreLogoWhite.png" 
-    width = "291" alt="Green Country Habitat for Humanity Logo"></img>
+                  width = "291" alt="Green Country Habitat for Humanity Logo"></img>
                 </a>
             </li>
             <li><a href="https://www.greencountryrestore.org/locations">Locations</a></li>
@@ -93,13 +93,11 @@ function App() {
             <li><a href="https://greencountryhabitat.org/careers">Career</a></li>
             <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
             <div>
-            <button onClick={() => setShowNav(!showNav)} className="toggle-button">
-              {showNav ? 'Hide Filters' : 'Show Filters'}</button>
+            <button> onClick={() => setShowNav(!showNav)} className="toggle-button">{showNav ? 'Hide Filters' : 'Show Filters'}</button>
             </div>
-        </ul>
-    </nav>
-      
-    <div className="App">
+          </ul>
+        </nav>
+    
       <div className="product-cards">
         <h1>Green Country ReStores' Recent Facebook Items</h1>
         <div className="product"> {
