@@ -89,7 +89,7 @@ function App() {
         <ul>
           <li><a href="https://www.greencountryrestore.org/locations">Locations</a></li>
           <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
-          <li><a href="https://www.greencountryrestore.org/habco">Habco Cabinets</a></li>
+          <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
           <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
           <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
           <button onClick={() => setShowNav(!showNav)} className="toggle-button">
