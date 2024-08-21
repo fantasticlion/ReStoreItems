@@ -78,7 +78,20 @@ function App() {
 
   return (
     <div className="App">
-     <nav>
+      <div className="product-cards">
+        <h1>Green Country ReStores' Recent Facebook Items  
+        </h1>
+        <button onClick={() => setShowNav(!showNav)} className="toggle-button">
+          {showNav ? 'Hide Filters' : 'Show Filters'}
+        </button>
+        <div className="product"> {
+          filterData.sort(allSorts[sort].method)
+            .map((item, index) => (<ProductItem key={"product" + index} info={item} 
+              added={favorites[item.name]} setStateOfParent={updateFavorites}/>))}
+        </div>
+      </div>
+          
+      <nav>
         <ul>
             <li class="logo">
                 <a href="https://greencountryhabitat.org/">
@@ -93,18 +106,6 @@ function App() {
             <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
         </ul>
     </nav>
-      <div className="product-cards">
-        <h1>Green Country ReStores' Recent Facebook Items  
-        </h1>
-        <button onClick={() => setShowNav(!showNav)} className="toggle-button">
-          {showNav ? 'Hide Filters' : 'Show Filters'}
-        </button>
-        <div className="product"> {
-          filterData.sort(allSorts[sort].method)
-            .map((item, index) => (<ProductItem key={"product" + index} info={item} 
-              added={favorites[item.name]} setStateOfParent={updateFavorites}/>))}
-        </div>
-      </div>
 
       {showNav && (
         <div className="favorites">
