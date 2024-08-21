@@ -24,9 +24,8 @@ li {
   font-weight: 550;
 }
 
-.toggle-button {
+button {
   font-size: 1em;
-  z-index: 1001;
 }
 
 button:hover {
@@ -35,7 +34,6 @@ button:hover {
 
 /* Favorites section */
 .favorites {
-  z-index: 1000;
   background-color: rgba(228, 250, 255, 1);
   width: 15em;
   position: fixed;
@@ -193,13 +191,14 @@ nav ul li a:hover {
 }
 
 .overlay {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-color: white;
-  z-index: 1002;
+  z-index: 1000;
   text-align: center;
 }
 
@@ -210,10 +209,6 @@ nav ul li a:hover {
   color: #02AFD7;
   font-size: 1.7em;
   cursor: pointer;
-}
-
-.overlay button {
-  display: none;
 }
 
 .overlay-menu {
