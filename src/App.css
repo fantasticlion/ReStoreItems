@@ -242,6 +242,7 @@ nav ul li a:hover {
   }
 
   nav .logo {
+    max-width: 80px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
