@@ -82,16 +82,15 @@ function App() {
         <ul>
             <li class="logo">
                 <a href="https://greencountryhabitat.org/">
-                    <img src="https://images.squarespace-cdn.com/content/v1/56b161a622482e966ff4db63/f518bf05-5a14-4122-8f51-c5f6c8a0c9cf/whiteGHFRFlogo_4web_white+GCHFH+.png" 
-    width = "247" alt="Green Country Habitat for Humanity Logo"></img>
+                    <img src="https://images.squarespace-cdn.com/content/v1/60148fcfca55b203f218fe44/78437348-4849-4744-9026-560f2ae90f51/GCReStoreLogoWhite.png" 
+    width = "291" alt="Green Country Habitat for Humanity Logo"></img>
                 </a>
             </li>
-            <li><a href="https://greencountryhabitat.org/about-us/">About Us</a></li>
-            <li><a href="https://greencountryhabitat.org/donate/">Donate</a></li>
-            <li><a href="https://greencountryhabitat.org/homebuyer-Program-">HomeBuyer Program</a></li>
-            <li><a href="https://greencountryhabitat.org/volunteer/">Volunteer</a></li>
-            <li><a href="https://greencountryhabitat.org/projects/">Events</a></li>
-            <li><a href="https://www.greencountryrestore.org/">ReStores</a></li>
+            <li><a href="https://www.greencountryrestore.org/locations">Locations</a></li>
+            <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
+            <li><a href="https://www.greencountryrestore.org/habco">Habco Cabinets</a></li>
+            <li><a href="https://greencountryhabitat.org/careers">Career</a></li>
+            <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
         </ul>
     </nav>
       <div className="product-cards">
