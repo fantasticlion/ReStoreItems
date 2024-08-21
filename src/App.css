@@ -211,6 +211,10 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
+.overlay button {
+  display: none;
+}
+
 .overlay-menu {
   position: absolute;
   list-style-type: none;
