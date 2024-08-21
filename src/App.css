@@ -76,6 +76,7 @@ button:hover {
 
 .item button {
   font-weight: bold;
+  font-size: 1em;
   color: rgb(32, 59, 93);
   background-color: rgb(198,214,43,255);
   border-color: rgb(0, 0, 0);
@@ -88,6 +89,7 @@ button:hover {
 
 .toggle-button {
   font-weight: bold;
+  font-size: 1em;
   position: fixed;
   top: 1em;
   right: 2em;
@@ -117,6 +119,7 @@ label {
   }
 
   .toggle-button {
+    font-weight: bold;
     position: fixed;
     top: 2em;
     right: 2em;
