@@ -220,9 +220,9 @@ nav ul li a:hover {
 }
 
 .overlay-menu li a {
-  font-size: 2em;
-  color: rgb(32, 59, 93);
   text-decoration: none;
+  color: rgb(48, 156, 188);
+  font-size: 41px; /* Set font size to 41px */
 }
 
 @media (max-width: 768px) {
@@ -257,11 +257,5 @@ nav ul li a:hover {
 
   .overlay.active {
     display: block;
-  }
-
-  .overlay.active .close-btn,
-  .overlay.active .overlay-menu li a {
-    color: rgb(48, 156, 188); /* Change color to rgb(48, 156, 188) */
-    font-size: 41px; /* Set font size to 41px */
   }
 }
