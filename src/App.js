@@ -81,12 +81,12 @@ function App() {
     <div className="App">
       <nav>
         <ul>
-            <li class="logo">
+            <div class="logo">
                 <a href="https://greencountryhabitat.org/">
                     <img src="https://images.squarespace-cdn.com/content/v1/60148fcfca55b203f218fe44/78437348-4849-4744-9026-560f2ae90f51/GCReStoreLogoWhite.png" 
                   width = "291" alt="Green Country Habitat for Humanity Logo"></img>
                 </a>
-            </li>
+            </div>
             <li><a href="https://www.greencountryrestore.org/locations">Locations</a></li>
             <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
             <li><a href="https://www.greencountryrestore.org/habco">Habco Cabinets</a></li>
