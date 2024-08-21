@@ -79,21 +79,22 @@ function App() {
 
   const toggleMenu = () => {
     setMenuActive(!menuActive);
+    document.body.classList.toggle('no-scroll', !menuActive);
   }
 
   return (
     <div className="App">
       <nav>
+        <div className="menu-icon" onClick={toggleMenu}>
+          <div className="bar top-bar"></div>
+          <div className="bar middle-bar"></div>
+          <div className="bar bottom-bar"></div>
+        </div>
         <div className="logo">
           <a href="https://greencountryhabitat.org/">
             <img src="https://images.squarespace-cdn.com/content/v1/60148fcfca55b203f218fe44/78437348-4849-4744-9026-560f2ae90f51/GCReStoreLogoWhite.png" 
                  width="291" alt="Green Country Habitat for Humanity Logo"></img>
           </a>
-        </div>
-        <div className="menu-icon" onClick={toggleMenu}>
-          <div className="bar top-bar"></div>
-          <div className="bar middle-bar"></div>
-          <div className="bar bottom-bar"></div>
         </div>
         <ul className={`nav-items ${menuActive ? 'active' : ''}`}>
           <li><a href="https://www.greencountryrestore.org/locations">Locations</a></li>
