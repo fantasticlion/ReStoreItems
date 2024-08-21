@@ -156,12 +156,12 @@ nav ul li {
 
 nav ul li a {
   color: white;
-  padding-left: 1.2em;
+  padding-left: 1.25em;
   text-decoration: none;
   font-weight: normal;
   font-size: 16.5px;
 }
 
-nav ul li a: hover {
+nav ul li a:hover {
   color: rgb(32, 59, 93);
 }
