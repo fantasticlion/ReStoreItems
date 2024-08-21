@@ -79,7 +79,7 @@ function App() {
 
   const toggleMenu = () => {
     setMenuActive(!menuActive);
-    document.body.classList.toggle('no-scroll', !menuActive);
+    document.body.classList.toggle('no-scroll', menuActive);
   }
 
   return (
