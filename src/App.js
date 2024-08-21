@@ -82,7 +82,8 @@ function App() {
         <ul>
             <li class="logo">
                 <a href="https://greencountryhabitat.org/">
-                    <img src="https://images.squarespace-cdn.com/content/v1/56b161a622482e966ff4db63/f518bf05-5a14-4122-8f51-c5f6c8a0c9cf/whiteGHFRFlogo_4web_white+GCHFH+.png" width = "500" alt="Green Country Habitat for Humanity Logo"></img>
+                    <img src="https://images.squarespace-cdn.com/content/v1/56b161a622482e966ff4db63/f518bf05-5a14-4122-8f51-c5f6c8a0c9cf/whiteGHFRFlogo_4web_white+GCHFH+.png" 
+    width = "247" alt="Green Country Habitat for Humanity Logo"></img>
                 </a>
             </li>
             <li><a href="https://greencountryhabitat.org/about-us/">About Us</a></li>
