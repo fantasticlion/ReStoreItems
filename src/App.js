@@ -83,6 +83,9 @@ function App() {
 
   return (
     <div className="App">
+    <button onClick={() => setShowNav(!showNav)} className="toggle-button">
+      {showNav ? 'Hide Filters' : 'Show Filters'}
+    </button>
       <nav>
         <div className="menu-icon" onClick={toggleMenu}>
           <div className="bar top-bar"></div>
@@ -101,9 +104,6 @@ function App() {
           <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
           <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
           <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
-          <button onClick={() => setShowNav(!showNav)} className="toggle-button">
-            {showNav ? 'Hide Filters' : 'Show Filters'}
-          </button>
         </ul>
         <div className={`overlay ${menuActive ? 'active' : ''}`} onClick={toggleMenu}>
           <div className="close-btn">X</div>
