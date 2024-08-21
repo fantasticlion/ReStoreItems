@@ -93,7 +93,7 @@ function App() {
             <li><a href="https://greencountryhabitat.org/careers">Career</a></li>
             <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
             <div>
-            <button> onClick={() => setShowNav(!showNav)} className="toggle-button">{showNav ? 'Hide Filters' : 'Show Filters'}</button>
+            <button onClick={() => setShowNav(!showNav)} className="toggle-button">{showNav ? 'Hide Filters' : 'Show Filters'}</button>
             </div>
           </ul>
         </nav>
