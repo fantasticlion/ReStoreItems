@@ -105,7 +105,7 @@ function App() {
             {showNav ? 'Hide Filters' : 'Show Filters'}
           </button>
         </ul>
-        <div}>
+        <div>
           <div className="close-btn"  onClick={toggleMenu>X</div>
           <ul className="overlay-menu">
             <li><a href="https://www.greencountryrestore.org/locations">Locations</a></li>
