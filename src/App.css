@@ -144,7 +144,6 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding-top: 10px;
-  /*text-align: center;*/
   display: flex;
   justify-content: flex-end;
   flex-grow: 1;
@@ -164,4 +163,82 @@ nav ul li a {
 
 nav ul li a:hover {
   color: rgb(32, 59, 93);
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-icon .bar {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  transition: 0.4s;
+}
+
+.top-bar {
+  background-color: blue;
+}
+
+.middle-bar {
+  background-color: yellow;
+}
+
+.bottom-bar {
+  background-color: blue;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 1000;
+  text-align: center;
+}
+
+.overlay .close-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.overlay-menu {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20%;
+}
+
+.overlay-menu li {
+  margin: 20px 0;
+}
+
+.overlay-menu li a {
+  font-size: 2em;
+  color: rgb(32, 59, 93);
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .overlay {
+    display: none;
+  }
+
+  .overlay.active {
+    display: block;
+  }
 }
