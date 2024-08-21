@@ -26,6 +26,7 @@ li {
 
 button {
   font-size: 1em;
+  z-index: 999;
 }
 
 button:hover {
@@ -34,6 +35,7 @@ button:hover {
 
 /* Favorites section */
 .favorites {
+  z-index: 998;
   background-color: rgba(228, 250, 255, 1);
   width: 15em;
   position: fixed;
@@ -191,7 +193,6 @@ nav ul li a:hover {
 }
 
 .overlay {
-  display: none;
   position: fixed;
   top: 0;
   left: 0;
