@@ -43,13 +43,10 @@ button:hover {
 }
 
 .favorites button {
-  font-size: 1.2em;
-  font-weight: bold;
   color: rgb(32, 59, 93);
   background-color: rgb(198,214,43,255);
   border-color: black;
   border-width: 0.15em;
-  border-radius: 1em;
   margin-top: 1em;
   padding: 0.5em 1em;
 }
@@ -77,13 +74,10 @@ button:hover {
 }
 
 .item button {
-  font-size: 1.2em;
-  font-weight: bold;
   color: rgb(32, 59, 93);
   background-color: rgb(198,214,43,255);
   border-color: rgb(0, 0, 0);
   border-width: 0.18em;
-  border-radius: 1em;
   padding: 0.5em 1em;
   margin-top: 1em;
   margin-right: 1em;
@@ -94,13 +88,10 @@ button:hover {
   position: fixed;
   top: 1em;
   right: 2em;
-  font-size: 1.2em;
-  font-weight: bold;
   color: rgb(32, 59, 93);
   background-color: rgb(198,214,43,255);
   border-color: rgb(0, 0, 0);
   border-width: 0.15em;
-  border-radius: 1em;
   padding: 0.5em 1em;
   float: right;
 }
@@ -128,7 +119,6 @@ label {
     right: 2em;
     font-size: 0.8em;
     border-width: 0.12em;
-    border-radius: 0.67em;
     padding: 0.33em 0.67em;
     z-index: 1001;
   }
