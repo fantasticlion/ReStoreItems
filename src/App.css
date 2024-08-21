@@ -236,6 +236,13 @@ nav ul li a:hover {
     left: 29px; /* Ensure the menu icon is always on the left with padding of 29px */
   }
 
+  nav .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 29px; /* Add padding of 29px around the logo */
+  }
+
   nav .logo img {
     max-width: 80px; /* Ensure the logo's max width is 80px */
   }
