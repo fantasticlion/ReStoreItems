@@ -152,6 +152,10 @@ label {
 /* Navigation bar styles */
 nav {
   background-color: rgb(44,176,211,255);
+  padding-top: 1.8em;
+  padding-bottom: 1.8em;
+  padding-left: 5.2em;
+  padding-right: 5.2em;
 }
 
 nav ul {
@@ -166,10 +170,10 @@ nav ul li {
 }
 
 nav ul li a {
-  display: block;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
+  font-size: 16px;
+  text-align: right;
+  padding: 1.6px 0px;
   text-decoration: none;
 }
 
