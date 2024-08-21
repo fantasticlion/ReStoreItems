@@ -95,7 +95,7 @@ function App() {
                  width="291" alt="Green Country Habitat for Humanity Logo"></img>
           </a>
         </div>
-        <ul className={`nav-items ${menuActive ? 'active' : ''}`}>
+        <ul>
           <li><a href="https://www.greencountryrestore.org/locations">Locations</a></li>
           <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
           <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
@@ -107,13 +107,13 @@ function App() {
         </ul>
         <div className={`overlay ${menuActive ? 'active' : ''}`} onClick={toggleMenu}>
           <div className="close-btn">X</div>
-          <ul className="overlay-menu">
+          <div className="overlay-menu">
             <li><a href="https://www.greencountryrestore.org/locations">Locations</a></li>
             <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
             <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
             <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
             <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
-          </ul>
+          </div>
         </div>
       </nav>
     
