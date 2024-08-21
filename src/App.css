@@ -23,6 +23,10 @@ li {
   font-weight: 550;
 }
 
+button {
+  font-size: 1em;
+}
+
 button:hover {
   cursor: pointer;
 }
@@ -51,10 +55,6 @@ button:hover {
   margin-top: 1em;
 }
 
-.favorites button {
-  margin-top: 1em;
-}
-
 /* Product section */
 .product {
   display: flex;
@@ -78,13 +78,12 @@ button:hover {
 }
 
 .item button {
-  font-size: 1em;
   float: right;
   margin-right: 1em;
 }
 
+/* Toggle button */
 .toggle-button {
-  font-size: 1em;
   position: fixed;
   top: 1em;
   right: 2em;
@@ -134,7 +133,11 @@ nav {
   padding: 1.8vw 5.2vw;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+nav .logo {
+  margin-right: auto;
 }
 
 nav ul {
@@ -146,7 +149,7 @@ nav ul {
 }
 
 nav ul li {
-  margin-left: auto;
+  margin-left: 1em;
 }
 
 nav ul li a {
@@ -154,8 +157,4 @@ nav ul li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-nav ul li a:hover {
-  background-color: #111;
 }
