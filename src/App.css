@@ -161,5 +161,5 @@ nav ul li a {
   text-decoration: none;
   font-weight: normal;
   font-size: 16px;
-  padding-top: 50px; /* Adjusted to move words further downward */
+  padding-top: 100px; /* Adjusted to move words further downward */
 }
