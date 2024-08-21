@@ -157,7 +157,7 @@ nav ul li {
 nav ul li a {
   color: white;
   text-align: center;
-  padding-left: 32px; /* Double left padding */
+  padding-left: 24px; /* Double left padding */
   padding-right: 0; /* No right padding */
   text-decoration: none;
   font-weight: normal; /* Not bold */
