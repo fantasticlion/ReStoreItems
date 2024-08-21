@@ -143,8 +143,8 @@ nav .logo {
 nav ul {
   list-style-type: none;
   margin: 0;
-  /*padding-top: 10px;*/
-  text-align: center;
+  padding-top: 10px;
+  /*text-align: center;*/
   display: flex;
   justify-content: flex-end;
   flex-grow: 1;
@@ -159,5 +159,5 @@ nav ul li a {
   padding-left: 1em;
   text-decoration: none;
   font-weight: normal;
-  font-size: 1em;
+  font-size: 16px;
 }
