@@ -83,8 +83,10 @@ function App() {
 
   return (
     <div className="App">
-    <button onClick={() => setShowNav(!showNav)} className="toggle-button">
+    {!menuActive && (
+      <button onClick={() => setShowNav(!showNav)} className="toggle-button">
       {showNav ? 'Hide Filters' : 'Show Filters'}
+    )}
     </button>
       <nav>
         <div className="menu-icon" onClick={toggleMenu}>
