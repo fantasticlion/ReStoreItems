@@ -152,10 +152,15 @@ label {
 /* Navigation bar styles */
 nav {
   background-color: rgb(44,176,211,255);
-  padding-top: 1.8em;
-  padding-bottom: 1.8em;
-  padding-left: 5.2em;
-  padding-right: 5.2em;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 1.8vw;
+  padding-bottom: 1.8vw;
+  padding-left: 5.2vw;
+  padding-right: 5.2vw;
+  pointer-events: auto;
 }
 
 nav ul {
