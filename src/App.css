@@ -1,63 +1,68 @@
+/* Common styles */
+h1, h2, h3, li {
+  color: rgb(32, 59, 93);
+}
+
 h1 {
   text-align: center;
   font-size: 3em;
-  color: rgb(32, 59, 93);
 }
 
 h2 {
   font-size: 1.8em;
-  color: rgb(32, 59, 93);
 }
 
-h3 {
+h3, label {
   font-size: 1.2em;
-  line-height: 0em;
-  color: rgb(32, 59, 93);
+  line-height: 0;
 }
 
 li {
   font-size: 1.2em;
   margin-bottom: 0.75em;
   font-weight: 550;
-  color: rgb(32, 59, 93);
 }
 
 button:hover {
   cursor: pointer;
 }
 
+/* Favorites section */
 .favorites {
-  background-color: rgb(228,250,255,255);
+  background-color: rgba(228, 250, 255, 1);
   width: 15em;
   position: fixed;
   top: 4em;
   right: 0;
-  padding-bottom: 2em;
-  padding-left: 2.5em;
-  border-top-left-radius: 1em;
-  border-bottom-left-radius: 1em;
+  padding: 0 0 2em 2.5em;
+  border-radius: 1em 0 0 1em;
 }
 
 .favorites input {
   margin-bottom: 0.9em;
 }
 
-.favorites button {
+.favorites button, .item button, .toggle-button {
   font-weight: bold;
   color: black;
-  background-color: rgb(198,214,43,255);
+  background-color: rgba(198, 214, 43, 1);
   border: none;
-  margin-top: 1em;
   padding: 0.5em 1em;
+  margin-top: 1em;
 }
 
+.favorites button {
+  margin-top: 1em;
+}
+
+/* Product section */
 .product {
   display: flex;
   flex-wrap: wrap;
 }
 
 .item {
-  background-color: rgb(44,176,211,255);
+  background-color: rgba(44, 176, 211, 1);
   width: 35em;
   margin: 1.5em;
   padding: 2em;
@@ -69,57 +74,35 @@ button:hover {
   max-width: 20em;
   max-height: 20em;
   object-fit: cover;
-  margin-right: 4em;
-  margin-bottom: 4em;
+  margin: 0 4em 4em 0;
 }
 
 .item button {
-  font-weight: bold;
   font-size: 1em;
-  color: black;
-  background-color: rgb(198,214,43,255);
-  border: none;
-  padding: 0.5em 1em;
-  margin-top: 1em;
-  margin-right: 1em;
   float: right;
+  margin-right: 1em;
 }
 
 .toggle-button {
-  font-weight: bold;
   font-size: 1em;
   position: fixed;
   top: 1em;
   right: 2em;
-  color: black;
-  background-color: rgb(198,214,43,255);
-  border: none;
-  padding: 0.5em 1em;
   float: right;
-}
-
-label {
-  line-height: 0em;
 }
 
 /* Responsive styles */
 @media (max-width: 768px) {
   .favorites {
     width: 100%;
-    position: fixed;
     top: 0;
-    right: 0;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 0 1em;
     z-index: 1000;
-    text-align: center; /* Center the text */
+    text-align: center;
   }
 
   .toggle-button {
-    font-weight: bold;
-    position: fixed;
     top: 2em;
-    right: 2em;
     font-size: 0.8em;
     border-width: 0.12em;
     padding: 0.33em 0.67em;
@@ -127,7 +110,7 @@ label {
   }
 
   .product {
-    margin-top: 5em; /* Adjust this value if needed to avoid overlap with the navigation bar */
+    margin-top: 5em;
   }
 
   .item {
@@ -137,35 +120,33 @@ label {
 
   .item img {
     max-width: 100%;
-    margin-right: 0;
-    margin-bottom: 1em;
+    margin: 0 0 1em 0;
   }
 }
 
 /* Navigation bar styles */
 nav {
-  background-color: rgb(44,176,211,255);
+  background-color: rgba(44, 176, 211, 1);
   position: relative;
   z-index: 2;
   width: 100%;
   box-sizing: border-box;
-  padding-top: 1.8vw;
-  padding-bottom: 1.8vw;
-  padding-left: 5.2vw;
-  padding-right: 5.2vw;
-  pointer-events: auto;
+  padding: 1.8vw 5.2vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  align: right;
+  display: flex;
+  align-items: center;
 }
 
 nav ul li {
-  float: left;
+  margin-left: auto;
 }
 
 nav ul li a {
@@ -176,5 +157,5 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  #background-color: #111;
+  background-color: #111;
 }
