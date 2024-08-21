@@ -227,7 +227,7 @@ nav ul li a:hover {
 
 @media (max-width: 768px) {
   nav {
-    min-height: 2em;
+    min-height: 5em;
   }
   
   nav ul {
