@@ -217,12 +217,12 @@ nav ul li a:hover {
 }
 
 .overlay-menu li {
-  margin: 20px 0;
+  margin: 20px 20px;
 }
 
 .overlay-menu li a {
   text-decoration: none;
-  color: rgb(48, 156, 188);
+  color: #02AFD7;
   font-size: 41px; /* Set font size to 41px */
 }
 
@@ -246,10 +246,6 @@ nav ul li a:hover {
     left: 50%;
     transform: translateX(-50%);
     padding: 29px; /* Add padding of 29px around the logo */
-  }
-
-  nav .logo img {
-    max-width: 80px; /* Ensure the logo's max width is 80px */
   }
 
   .overlay {
