@@ -94,7 +94,7 @@ function App() {
         </ul>
     </nav>
       <div className="product-cards">
-        <h1>Green Country ReStores  
+        <h1>Green Country ReStores' Recent Facebook Items  
         </h1>
         <button onClick={() => setShowNav(!showNav)} className="toggle-button">
           {showNav ? 'Hide Filters' : 'Show Filters'}
