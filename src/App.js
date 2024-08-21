@@ -78,6 +78,16 @@ function App() {
 
   return (
     <div className="App">
+      <nav>
+        <ul>
+          <li><a href="https://greencountryhabitat.org/">Home</a></li>
+          <li><a href="https://greencountryhabitat.org/about-us/">About Us</a></li>
+          <li><a href="https://greencountryhabitat.org/programs/">Programs</a></li>
+          <li><a href="https://greencountryhabitat.org/volunteer/">Volunteer</a></li>
+          <li><a href="https://greencountryhabitat.org/donate/">Donate</a></li>
+          <li><a href="https://greencountryhabitat.org/contact/">Contact</a></li>
+        </ul>
+      </nav>
       <div className="product-cards">
         <h1>Green Country ReStores  
           <img src="https://images.squarespace-cdn.com/content/v1/60148fcfca55b203f218fe44/49cb0b5c-21d6-4bf8-8f74-544cd98ae908/GC_ReStoreLogoBlackHome.png" 
