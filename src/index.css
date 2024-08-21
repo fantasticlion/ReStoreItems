@@ -1,7 +1,8 @@
 body {
   margin: 0;
   background-color: rgb(235,235,235,255);
-  font-family: aktiv-grotesk;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
