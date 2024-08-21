@@ -44,10 +44,9 @@ button:hover {
 
 .favorites button {
   font-weight: bold;
-  color: rgb(32, 59, 93);
+  color: black;
   background-color: rgb(198,214,43,255);
-  border-color: black;
-  border-width: 0.15em;
+  border: none;
   margin-top: 1em;
   padding: 0.5em 1em;
 }
@@ -77,10 +76,9 @@ button:hover {
 .item button {
   font-weight: bold;
   font-size: 1em;
-  color: rgb(32, 59, 93);
+  color: black;
   background-color: rgb(198,214,43,255);
-  border-color: rgb(0, 0, 0);
-  border-width: 0.18em;
+  border: none;
   padding: 0.5em 1em;
   margin-top: 1em;
   margin-right: 1em;
@@ -93,10 +91,9 @@ button:hover {
   position: fixed;
   top: 1em;
   right: 2em;
-  color: rgb(32, 59, 93);
+  color: black;
   background-color: rgb(198,214,43,255);
-  border-color: rgb(0, 0, 0);
-  border-width: 0.15em;
+  border: none;
   padding: 0.5em 1em;
   float: right;
 }
