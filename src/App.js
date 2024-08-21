@@ -11,6 +11,7 @@ function App() {
   const [filterData, setFilterData] = useState(productsData);
   const [total, setTotal] = useState(0);
   const [showNav, setShowNav] = useState(false); // Set to false to hide filters by default
+  const [menuActive, setMenuActive] = useState(false); // State for the mobile menu
 
   const allSorts = {
     productType: { method: (a, b) => (parseFloat(a.id) < parseFloat(b.id) ? -1 : 1) },
@@ -76,17 +77,25 @@ function App() {
     setTotal(0);
   }
 
+  const toggleMenu = () => {
+    setMenuActive(!menuActive);
+  }
+
   return (
-      
     <div className="App">
       <nav>
-        <div class="logo">
+        <div className="logo">
           <a href="https://greencountryhabitat.org/">
             <img src="https://images.squarespace-cdn.com/content/v1/60148fcfca55b203f218fe44/78437348-4849-4744-9026-560f2ae90f51/GCReStoreLogoWhite.png" 
                  width="291" alt="Green Country Habitat for Humanity Logo"></img>
           </a>
         </div>
-        <ul>
+        <div className="menu-icon" onClick={toggleMenu}>
+          <div className="bar top-bar"></div>
+          <div className="bar middle-bar"></div>
+          <div className="bar bottom-bar"></div>
+        </div>
+        <ul className={`nav-items ${menuActive ? 'active' : ''}`}>
           <li><a href="https://www.greencountryrestore.org/locations">Locations</a></li>
           <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
           <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
@@ -96,6 +105,16 @@ function App() {
             {showNav ? 'Hide Filters' : 'Show Filters'}
           </button>
         </ul>
+        <div className={`overlay ${menuActive ? 'active' : ''}`} onClick={toggleMenu}>
+          <div className="close-btn">X</div>
+          <ul className="overlay-menu">
+            <li><a href="https://www.greencountryrestore.org/locations">Locations</a></li>
+            <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
+            <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
+            <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
+            <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
+          </ul>
+        </div>
       </nav>
     
       <div className="product-cards">
@@ -103,8 +122,7 @@ function App() {
         <div className="product"> {
           filterData.sort(allSorts[sort].method)
             .map((item, index) => (<ProductItem key={"product" + index} info={item} 
-              added={favorites[item.name]} setStateOfParent={updateFavorites}/>))}
-        </div>
+              added={favorites[item.name]} setStateOfParent={updateFavorites}/>))}</div>
       </div>
 
       {showNav && (
