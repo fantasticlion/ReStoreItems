@@ -178,15 +178,15 @@ nav ul li a:hover {
 }
 
 .top-bar {
-  background-color: blue;
+  background-color: rgb(149,205,222,255);
 }
 
 .middle-bar {
-  background-color: yellow;
+  background-color: rgb(255,255,255,255);
 }
 
 .bottom-bar {
-  background-color: blue;
+  background-color: rgb(149,205,222,255);
 }
 
 .overlay {
@@ -232,6 +232,12 @@ nav ul li a:hover {
 
   .menu-icon {
     display: block;
+    position: absolute;
+    left: 29px; /* Ensure the menu icon is always on the left with padding of 29px */
+  }
+
+  nav .logo img {
+    max-width: 80px; /* Ensure the logo's max width is 80px */
   }
 
   .overlay {
@@ -240,5 +246,11 @@ nav ul li a:hover {
 
   .overlay.active {
     display: block;
+  }
+
+  .overlay.active .close-btn,
+  .overlay.active .overlay-menu li a {
+    color: rgb(48, 156, 188); /* Change color to rgb(48, 156, 188) */
+    font-size: 41px; /* Set font size to 41px */
   }
 }
