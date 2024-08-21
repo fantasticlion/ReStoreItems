@@ -105,6 +105,9 @@ function App() {
           <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
           <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
         </ul>
+        <button onClick={() => setShowNav(!showNav)} className="toggle-button">
+          {showNav ? 'Hide Filters' : 'Show Filters'}
+        </button>
         <div className={`overlay ${menuActive ? 'active' : ''}`} onClick={toggleMenu}>
           <div className="close-btn">X</div>
           <div className="overlay-menu">
