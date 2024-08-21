@@ -205,7 +205,8 @@ nav ul li a:hover {
   position: absolute;
   top: 20px;
   left: 20px;
-  font-size: 2em;
+  color: #02AFD7;
+  font-size: 1.7em;
   cursor: pointer;
 }
 
