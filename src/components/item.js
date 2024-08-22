@@ -2,8 +2,8 @@ export default function ProductItem(props) {
   return (
     <div className="item">
       <h2>{props.info["name"]}</h2>
+      <img src={props.info["image_link"]}></img>
       <ul>
-        <img src={props.info["image_link"]}></img>
         <li>Product Type: {props.info["product_type"]}</li>
         <li>Processor: {props.info["processor"]}</li>
         <li>Release Time: {props.info["release_time"]}</li>
