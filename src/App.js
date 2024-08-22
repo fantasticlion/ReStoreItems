@@ -184,6 +184,39 @@ return (
           </form>
         </div>
       )}
+        <footer>
+          <div className="footer-container">
+            <div className="footer-logo">
+              <a href="https://greencountryrestore.org/">
+                <img src="https://images.squarespace-cdn.com/content/v1/60148fcfca55b203f218fe44/78437348-4849-4744-9026-560f2ae90f51/GCReStoreLogoWhite.png" alt="Green Country Habitat for Humanity Logo" />
+              </a>
+            </div>
+            <div className="footer-links">
+              <ul>
+                <li><a href="https://www.greencountryrestore.org/locations">Locations</a></li>
+                <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
+                <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
+                <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
+                <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
+              </ul>
+            </div>
+            <div className="footer-social">
+              <a href="https://www.facebook.com/GreenCountryReStore" target="_blank" rel="noopener noreferrer">
+                <img src="https://www.svgrepo.com/show/157818/facebook.svg" alt="Facebook" />
+              </a>
+              <a href="https://www.instagram.com/greencountryrestore/" target="_blank" rel="noopener noreferrer">
+                <img src="https://www.svgrepo.com/show/157805/instagram.svg" alt="Instagram" />
+              </a>
+              <a href="https://www.linkedin.com/company/green-country-restore/" target="_blank" rel="noopener noreferrer">
+                <img src="https://www.svgrepo.com/show/157812/linkedin.svg" alt="LinkedIn" />
+              </a>
+            </div>
+          </div>
+          <div className="footer-bottom">
+            <p>&copy; 2024 Green Country Habitat for Humanity. All Rights Reserved.</p>
+          </div>
+        </footer>
+
     </div>
   );
 }
