@@ -13,13 +13,11 @@ h2 {
   font-size: 1.8em;
 }
 
-h3, label {
+h3, label, li {
   font-size: 1.2em;
-  line-height: 0;
 }
 
 li {
-  font-size: 1.2em;
   margin-bottom: 0.75em;
   font-weight: 550;
 }
@@ -86,9 +84,8 @@ button:hover {
 /* Toggle button */
 .toggle-button {
   position: fixed;
-  top: 0.5em; /* Adjusted upward */
+  top: 0.5em;
   right: 2em;
-  float: right;
 }
 
 /* Responsive styles */
@@ -102,7 +99,7 @@ button:hover {
   }
 
   .toggle-button {
-    top: 1.5em; /* Adjusted upward */
+    top: 1.5em;
     font-size: 0.8em;
     border-width: 0.12em;
     padding: 0.33em 0.67em;
@@ -130,7 +127,6 @@ nav {
   position: relative;
   z-index: 2;
   width: 100%;
-  box-sizing: border-box;
   padding: 1.8vw 5.2vw;
   display: flex;
   align-items: center;
@@ -158,7 +154,6 @@ nav ul li a {
   color: white;
   padding-left: 1.45em;
   text-decoration: none;
-  font-weight: normal;
   font-size: 16.5px;
 }
 
@@ -178,16 +173,12 @@ nav ul li a:hover {
   transition: 0.4s;
 }
 
-.top-bar {
-  background-color: rgb(149,205,222,255);
+.menu-icon .top-bar, .menu-icon .bottom-bar {
+  background-color: rgb(149, 205, 222);
 }
 
-.middle-bar {
-  background-color: rgb(255,255,255,255);
-}
-
-.bottom-bar {
-  background-color: rgb(149,205,222,255);
+.menu-icon .middle-bar {
+  background-color: white;
 }
 
 .overlay {
@@ -219,20 +210,20 @@ nav ul li a:hover {
 }
 
 .overlay-menu li {
-  margin: 20px 20px;
+  margin: 20px;
 }
 
 .overlay-menu li a {
   text-decoration: none;
   color: #02AFD7;
-  font-size: 41px; /* Set font size to 41px */
+  font-size: 41px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 932px) {
   nav {
     min-height: 5em;
   }
-  
+
   nav ul {
     display: none;
   }
@@ -240,22 +231,18 @@ nav ul li a:hover {
   .menu-icon {
     display: block;
     position: absolute;
-    left: 29px; /* Ensure the menu icon is always on the left with padding of 29px */
+    left: 29px;
   }
 
   nav .logo {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    padding: 29px; /* Add padding of 29px around the logo */
+    padding: 29px;
   }
 
   nav .logo img {
-    max-width: 80px; /* Ensure the logo's max width is 80px */
-  }
-
-  .overlay {
-    display: none;
+    max-width: 80px;
   }
 
   .overlay.active {
