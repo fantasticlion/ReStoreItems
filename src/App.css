@@ -356,6 +356,7 @@ nav ul li a:hover {
 
   nav .logo img {
     max-height: 15vw;
+    object-fit: contain;
   }
 
   .overlay {
