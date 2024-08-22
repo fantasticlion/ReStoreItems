@@ -193,6 +193,9 @@ nav ul li a:hover {
   font-weight: bold;
   color: black;
   display: none; /* Initially hidden */
+  font-size: 0.8em; /* Smaller font size */
+  width: 6em; /* Ensure both buttons have the same width */
+  text-align: center; /* Center the text */
 }
 
 .go-to-top {
@@ -204,7 +207,7 @@ nav ul li a:hover {
 }
 
 /* Show buttons in mobile view */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .go-to-top, .go-to-bottom {
     display: block;
   }
