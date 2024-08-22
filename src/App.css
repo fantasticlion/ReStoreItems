@@ -271,7 +271,7 @@ footer {
   color: white;
   padding: 2em 1em;
   text-align: center;
-  margin-top: 4.8em;
+  margin-top: 4.32em;
 }
 
 .footer-container {
@@ -281,20 +281,20 @@ footer {
 
 /* Apply top and bottom margin to all direct children of footer-container */
 .footer-container > * {
-  margin-top: 2.4em;
-  margin-bottom: 2.4em;
+  margin-top: 2.16em;
+  margin-bottom: 2.16em;
 }
 
 .footer-mission {
   font-size: 1.2em;
   font-weight: bold;
-  margin-bottom: 2.4em;
+  margin-bottom: 2.16em;
 }
 
 .footer-container ul {
   font-size: 1em;
   font-weight: normal;
-  margin: 1.2em 0;
+  margin: 1.08em 0;
 }
 
 .footer-container a {
@@ -316,7 +316,7 @@ footer {
 }
 
 .footer-social {
-  margin: 2.4em 0;
+  margin: 2.16em 0;
   font-size: 1em;
 }
 
