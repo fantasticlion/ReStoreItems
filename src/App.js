@@ -186,11 +186,8 @@ return (
       )}
         <footer>
           <div className="footer-container">
-            <div className="footer-logo">
-              <a href="https://greencountryrestore.org/">
-                <img src="https://images.squarespace-cdn.com/content/v1/60148fcfca55b203f218fe44/78437348-4849-4744-9026-560f2ae90f51/GCReStoreLogoWhite.png" alt="Green Country Habitat for Humanity Logo" />
-              </a>
-            </div>
+            <li>All purchases and donations support Green Country Habitat for Humanity's mission to make safe, quality, and affordable homes accessible to hardworking Tulsa area families.</li>
+            <li><a>Donations accepted during open hours only. It is illegal to leave items when stores are closed.</a></li>
             <div className="footer-links">
               <ul>
                 <li><a href="https://www.greencountryrestore.org/locations">Locations</a></li>
