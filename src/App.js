@@ -120,19 +120,23 @@ function App() {
           <div className="close-btn" onClick={toggleMenu}>X</div>
           <div className="overlay-menu">
             {menuActive && !newMenuActive && (
+              <>
                 <li><a href="#" onClick={toggleNewMenu}>Locations &rt</a></li>
                 <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
                 <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
                 <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
                 <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
+              </>
             )}
             {menuActive && newMenuActive && (
+              <>
                 <li><a href="#" onClick={toggleNewMenu}>&lt Back</a></li>
                 <li><a href="https://www.greencountryrestore.org/restoretulsa">ReStore Tulsa</a></li>
                 <li><a href="https://www.greencountryrestore.org/restorerack">ReStore Rack</a></li>
                 <li><a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a></li>
                 <li><a href="https://www.greencountryrestore.org/restoreclaremore">ReStore Claremore</a></li>
                 <li><a href="https://fantasticlion.github.io/ReStoreItems/">ReStore Items</a></li>
+              </>
             )}
           </div>
         </div>
