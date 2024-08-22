@@ -82,7 +82,7 @@ button:hover {
 }
 
 .item button {
-  margin-top: 1em; /* Add margin to separate from other elements */
+  align-self: flex-end; /* Align button to the right */
 }
 
 .toggle-button {
