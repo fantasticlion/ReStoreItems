@@ -182,6 +182,34 @@ nav ul li a:hover {
   color: rgb(32, 59, 93);
 }
 
+/* Go to Top and Go to Bottom buttons */
+.go-to-top, .go-to-bottom {
+  position: fixed;
+  right: 2em;
+  z-index: 1001;
+  background-color: rgba(198, 214, 43, 1);
+  border: none;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  color: black;
+  display: none; /* Initially hidden */
+}
+
+.go-to-top {
+  top: 3em; /* Position below the toggle button */
+}
+
+.go-to-bottom {
+  top: 6em; /* Position below the Go to Top button */
+}
+
+/* Show buttons in mobile view */
+@media (max-width: 1024px) {
+  .go-to-top, .go-to-bottom {
+    display: block;
+  }
+}
+
 /* Dropdown menu styles */
 .dropdown {
   position: relative;
