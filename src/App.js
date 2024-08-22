@@ -12,6 +12,7 @@ function App() {
   const [total, setTotal] = useState(0);
   const [showNav, setShowNav] = useState(false); // Set to false to hide filters by default
   const [menuActive, setMenuActive] = useState(false); // State for the mobile menu
+  const [showNewMenu, setShowNewMenu] = useState(false); // State for the new  mobile menu
 
   const allSorts = {
     productType: { method: (a, b) => (parseFloat(a.id) < parseFloat(b.id) ? -1 : 1) },
@@ -81,6 +82,10 @@ function App() {
     setMenuActive(!menuActive);
   }
 
+  const toggleNewMenu = () => {
+    setShowNewMenu(!showNewMenu);
+  }
+
 return (
   <div className="App">
     <nav>
@@ -131,8 +136,12 @@ return (
           </ul>
         </div>
       </div>
-        <button className="go-to-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>To Top</button>
-        <button className="go-to-bottom" onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}>To Bottom</button>
+        {!menuActive && (
+          <>
+            <button className="go-to-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>To Top</button>
+            <button className="go-to-bottom" onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}>To Bottom</button>
+          </>
+        )}
     </nav>
 
 
