@@ -41,6 +41,7 @@ button:hover {
   right: 0;
   padding: 0 0 2em 2.5em;
   border-radius: 1em 0 0 1em;
+  z-index: 1000;
 }
 
 .favorites input {
