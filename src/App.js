@@ -96,7 +96,15 @@ return (
         </a>
       </div>
       <ul>
-        <li><a href="https://www.greencountryrestore.org/locations">Locations</a></li>
+        <li className="dropdown">
+          <a href="https://www.greencountryrestore.org/locations">Locations</a>
+          <div className="dropdown-content">
+            <a href="https://www.greencountryrestore.org/restoretulsa">ReStore Tulsa</a>
+            <a href="https://www.greencountryrestore.org/restorerack">ReStore Rack</a>
+            <a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a>
+            <a href="https://www.greencountryrestore.org/restoreclaremore">ReStore Claremore</a>
+          </div>
+        </li>
         <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
         <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
         <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
