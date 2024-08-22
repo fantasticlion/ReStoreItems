@@ -344,7 +344,7 @@ nav ul li a:hover {
   .menu-icon {
     display: block;
     position: absolute;
-    left: 29px; /* Ensure the menu icon is always on the left with padding of 29px */
+    left: 6vw;
   }
 
   nav .logo {
