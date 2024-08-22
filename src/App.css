@@ -285,7 +285,6 @@ footer {
   margin-bottom: 1em;
 }
 
-.footer-container p,
 .footer-container ul {
   font-size: 1em;
   font-weight: normal;
@@ -306,6 +305,7 @@ footer {
   display: inline;
   margin-right: 1em;
   font-size: 1em;
+  font-weight: normal;
   text-decoration: underline;
 }
 
