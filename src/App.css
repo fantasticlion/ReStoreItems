@@ -302,7 +302,7 @@ nav ul li a:hover {
 
 .overlay-menu {
   display: flex;
-  justify-content: space-between; /* Adjust to space between the columns */
+  justify-content: center;
   list-style-type: none;
   padding: 0;
   margin-top: 20%;
@@ -310,7 +310,16 @@ nav ul li a:hover {
 
 .overlay-menu .original-menu,
 .overlay-menu .new-menu {
-  margin: 20px;
+  display: none;
+}
+
+.overlay-menu .original-menu.active,
+.overlay-menu .new-menu.active {
+  display: block;
+}
+
+.overlay-menu li {
+  margin: 20px 20px;
   display: block;
 }
 
