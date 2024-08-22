@@ -81,44 +81,42 @@ function App() {
     setMenuActive(!menuActive);
   }
 
-  return (
-    <div className="App">
-      <button onClick={() => setShowNav(!showNav)} className="toggle-button">
-      {showNav ? 'Hide Filters' : 'Show Filters'}
-    </button>
-      <nav>
-        <div className="menu-icon" onClick={toggleMenu}>
-          <div className="bar top-bar"></div>
-          <div className="bar middle-bar"></div>
-          <div className="bar bottom-bar"></div>
-        </div>
-        <div className="logo">
-          <a href="https://greencountryhabitat.org/">
-            <img src="https://images.squarespace-cdn.com/content/v1/60148fcfca55b203f218fe44/78437348-4849-4744-9026-560f2ae90f51/GCReStoreLogoWhite.png" 
-                 width="291" alt="Green Country Habitat for Humanity Logo"></img>
-          </a>
-        </div>
-        <ul>
+return (
+  <div className="App">
+    <nav>
+      <div className="menu-icon" onClick={toggleMenu}>
+        <div className="bar top-bar"></div>
+        <div className="bar middle-bar"></div>
+        <div className="bar bottom-bar"></div>
+      </div>
+      <div className="logo">
+        <a href="https://greencountryhabitat.org/">
+          <img src="https://images.squarespace-cdn.com/content/v1/60148fcfca55b203f218fe44/78437348-4849-4744-9026-560f2ae90f51/GCReStoreLogoWhite.png" 
+               width="291" alt="Green Country Habitat for Humanity Logo"></img>
+        </a>
+      </div>
+      <ul>
+        <li><a href="https://www.greencountryrestore.org/locations">Locations</a></li>
+        <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
+        <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
+        <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
+        <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
+      </ul>
+      <div className={`overlay ${menuActive ? 'active' : ''}`} onClick={toggleMenu}>
+        <div className="close-btn">X</div>
+        <div className="overlay-menu">
           <li><a href="https://www.greencountryrestore.org/locations">Locations</a></li>
           <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
           <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
           <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
           <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
-        </ul>
-        <button onClick={() => setShowNav(!showNav)} className="toggle-button">
-          {showNav ? 'Hide Filters' : 'Show Filters'}
-        </button>
-        <div className={`overlay ${menuActive ? 'active' : ''}`} onClick={toggleMenu}>
-          <div className="close-btn">X</div>
-          <div className="overlay-menu">
-            <li><a href="https://www.greencountryrestore.org/locations">Locations</a></li>
-            <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
-            <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
-            <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
-            <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
-          </div>
         </div>
-      </nav>
+      </div>
+    </nav>
+    {/* Place the toggle button right after the overlay */}
+    <button onClick={() => setShowNav(!showNav)} className="toggle-button">
+      {showNav ? 'Hide Filters' : 'Show Filters'}
+    </button>
     
       <div className="product-cards">
         <h1>Green Country ReStores' Recent Facebook Items</h1>
