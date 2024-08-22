@@ -84,10 +84,9 @@ button:hover {
   margin-right: 1em;
 }
 
-/* Toggle button */
 .toggle-button {
   position: fixed;
-  top: 0.5em; /* Adjusted upward */
+  top: 0.5em;
   right: 2em;
   float: right;
 }
@@ -103,7 +102,7 @@ button:hover {
   }
 
   .toggle-button {
-    top: 1.5em; /* Adjusted upward */
+    top: 1.5em;
     font-size: 0.8em;
     border-width: 0.12em;
     padding: 0.33em 0.67em;
@@ -201,6 +200,10 @@ nav ul li a:hover {
   background-color: white;
   z-index: 1000;
   text-align: center;
+}
+
+.overlay.active + .toggle-button {
+  display: none;
 }
 
 .overlay .close-btn {
