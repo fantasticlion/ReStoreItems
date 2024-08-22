@@ -293,8 +293,8 @@ nav ul li a:hover {
 
 .overlay .close-btn {
   position: absolute;
-  top: 10vw;
-  left: 10vw;
+  top: 7.5vw;
+  left: 7.5vw;
   color: rgba(44, 176, 211, 1);
   font-size: 1.7em;
   cursor: pointer;
