@@ -279,6 +279,12 @@ footer {
   margin: 0 auto;
 }
 
+/* Apply top and bottom margin to all direct children of footer-container */
+.footer-container > * {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 .footer-mission {
   font-size: 1.2em;
   font-weight: bold;
