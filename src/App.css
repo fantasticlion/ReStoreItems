@@ -294,29 +294,29 @@ footer {
 
 .footer-container a {
   color: white;
-  text-decoration: none;
-}
-
-.footer-container a:hover {
-  text-decoration: underline;
 }
 
 .footer-links ul {
   list-style-type: none;
   padding: 0;
+  font-size: 1em;
 }
 
 .footer-links ul li {
   display: inline;
   margin-right: 1em;
+  font-size: 1em;
+  text-decoration: underline;
 }
 
 .footer-social {
   margin: 1em 0;
+  font-size: 1em;
 }
 
 .footer-social a {
   margin: 0 1em;
+  font-size: 1em;
 }
 
 .footer-social img {
