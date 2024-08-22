@@ -317,12 +317,12 @@ nav ul li a:hover {
   text-decoration: none;
   font-weight: normal;
   color: rgba(44, 176, 211, 1);
-  font-size: 8.5vmin
+  font-size: 8.5vmin;
 }
 
 @media screen and (min-width: 576px ) {
     .overlay-menu li a {
-        font-size:6.6vmin
+        font-size: 6.6vmin;
     }
 }
 
