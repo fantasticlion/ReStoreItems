@@ -100,13 +100,15 @@ button:hover {
 @media (max-width: 768px) {
   h1 {
     font-size: 1.5em; /* Adjust as needed */
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
-  .item {
-    font-size: 0.9em; /* Adjust as needed */
+  h2 {
+    font-size: 1.35em; /* Adjust as needed */
   }
 
-  .favorites {
+  h3, label, li {
     font-size: 0.9em; /* Adjust as needed */
   }
 
