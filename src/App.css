@@ -320,6 +320,10 @@ nav ul li a:hover {
   font-size: 8.5vmin;
 }
 
+.overlay-menu li a.underline {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 576px ) {
     .overlay-menu li a {
         font-size: 6.6vmin;
