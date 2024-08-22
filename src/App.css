@@ -89,7 +89,7 @@ button:hover {
 }
 
 /* Responsive styles */
-@media (max-width: 768px) {
+@media (max-width: 932px) {
   .favorites {
     width: 100%;
     top: 0;
