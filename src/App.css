@@ -83,6 +83,7 @@ button:hover {
 
 .item button {
   align-self: flex-end; /* Align button to the right */
+  margin-right: 2em;
 }
 
 .toggle-button {
