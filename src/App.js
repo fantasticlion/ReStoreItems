@@ -121,7 +121,7 @@ function App() {
           <div className="overlay-menu">
             {menuActive && !newMenuActive && (
               <ul className="original-menu">
-                <li><a href="#" onClick={toggleNewMenu}>Locations</a></li>
+                <li><a href="#" onClick={toggleNewMenu}>Locations ></a></li>
                 <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
                 <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
                 <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
@@ -130,7 +130,7 @@ function App() {
             )}
             {menuActive && newMenuActive && (
               <ul className="new-menu">
-                <li><a href="#" onClick={toggleNewMenu}>Back</a></li>
+                <li><a href="#" onClick={toggleNewMenu}>< Back</a></li>
                 <li><a href="https://www.greencountryrestore.org/restoretulsa">ReStore Tulsa</a></li>
                 <li><a href="https://www.greencountryrestore.org/restorerack">ReStore Rack</a></li>
                 <li><a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a></li>
