@@ -115,13 +115,14 @@ return (
         <div className="close-btn">X</div>
         <div className="overlay-menu">
           <ul className="original-menu">
-            <li><a href="https://www.greencountryrestore.org/locations">Locations</a></li>
+            <li><a href="#" onClick={toggleNewMenu}>Locations</a></li>
             <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
             <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
             <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
             <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
           </ul>
           <ul className="new-menu">
+            <li><a href="#" onClick={toggleNewMenu}>Back</a></li>
             <li><a href="https://www.greencountryrestore.org/restoretulsa">ReStore Tulsa</a></li>
             <li><a href="https://www.greencountryrestore.org/restorerack">ReStore Rack</a></li>
             <li><a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a></li>
