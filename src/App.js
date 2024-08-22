@@ -113,10 +113,13 @@ return (
         </div>
       </div>
     </nav>
-    {/* Place the toggle button right after the overlay */}
-    <button onClick={() => setShowNav(!showNav)} className="toggle-button">
-      {showNav ? 'Hide Filters' : 'Show Filters'}
-    </button>
+
+    {/* Conditionally render the toggle button */}
+    {!menuActive && (
+      <button onClick={() => setShowNav(!showNav)} className="toggle-button">
+        {showNav ? 'Hide Filters' : 'Show Filters'}
+      </button>
+    )}
     
       <div className="product-cards">
         <h1>Green Country ReStores' Recent Facebook Items</h1>
