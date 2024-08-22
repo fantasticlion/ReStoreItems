@@ -334,7 +334,7 @@ nav ul li a:hover {
 
 @media (max-width: 1024px) {
   nav {
-    min-height: 15vw;
+    min-height: 23vw;
   }
   
   nav ul {
