@@ -193,10 +193,10 @@ return (
 
     <div className="footer-social">
       <a href="https://www.facebook.com/ReStoreTulsa1" target="_blank" rel="noopener noreferrer">
-        <img src="https://www.svgrepo.com/show/157818/facebook.svg" alt="Facebook" />
+        <img src="Instagram_icon.png" alt="Facebook" />
       </a>
       <a href="https://www.instagram.com/greencountryrestore/" target="_blank" rel="noopener noreferrer">
-        <img src="https://www.svgrepo.com/show/157805/instagram.svg" alt="Instagram" />
+        <img src="Facebook_icon.png" alt="Instagram" />
       </a>
     </div>
     
