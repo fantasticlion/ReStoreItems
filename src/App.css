@@ -182,6 +182,11 @@ nav ul li a:hover {
   color: rgb(32, 59, 93);
 }
 
+/* Make Locations link bold */
+.nav-locations {
+  font-weight: bold;
+}
+
 /* Go to Top and Go to Bottom buttons */
 .go-to-top, .go-to-bottom {
   position: fixed;
@@ -207,7 +212,7 @@ nav ul li a:hover {
 }
 
 /* Show buttons in mobile view */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .go-to-top, .go-to-bottom {
     display: block;
   }
