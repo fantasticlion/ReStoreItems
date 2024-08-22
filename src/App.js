@@ -131,8 +131,12 @@ return (
           </ul>
         </div>
       </div>
-      <button className="go-to-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>To Top</button>
-      <button className="go-to-bottom" onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}>To Bottom</button>
+      {!menuActive && (
+        <button className="go-to-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>To Top</button>
+      )}
+      {!menuActive && (
+        <button className="go-to-bottom" onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}>To Bottom</button>
+      )}
     </nav>
 
 
