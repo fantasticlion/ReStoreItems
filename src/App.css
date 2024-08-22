@@ -84,9 +84,7 @@ button:hover {
 
 .item button {
   position: absolute; /* Position the button absolutely */
-  bottom: 5em; /* 5em from the bottom */
   right: 5em; /* 5em from the right */
-  margin: 0; /* Remove any default margin */
 }
 
 .toggle-button {
