@@ -121,7 +121,7 @@ function App() {
           <div className="overlay-menu">
             {menuActive && !newMenuActive && (
               <>
-                <li><a href="#" onClick={toggleNewMenu}>Locations &rt;</a></li>
+                <li><a href="#" onClick={toggleNewMenu}>Locations &gt;</a></li>
                 <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
                 <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
                 <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
