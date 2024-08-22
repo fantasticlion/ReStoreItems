@@ -196,11 +196,11 @@ nav ul li a:hover {
 }
 
 .go-to-top {
-  top: 3em; /* Position below the toggle button */
+  top: calc(50vh - 2em); /* Center vertically, adjust as needed */
 }
 
 .go-to-bottom {
-  top: 6em; /* Position below the Go to Top button */
+  top: calc(50vh + 2em); /* Center vertically, adjust as needed */
 }
 
 /* Show buttons in mobile view */
