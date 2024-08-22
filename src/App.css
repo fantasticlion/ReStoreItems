@@ -97,7 +97,7 @@ button:hover {
 }
 
 /* Responsive styles */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   h1 {
     font-size: 1.5em; /* Adjust as needed */
     padding-left: 5%;
@@ -245,7 +245,7 @@ nav ul li a:hover {
   font-size: 41px; /* Set font size to 41px */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   nav {
     min-height: 5em;
   }
