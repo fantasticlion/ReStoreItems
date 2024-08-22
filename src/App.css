@@ -67,21 +67,22 @@ button:hover {
   width: 35em;
   margin: 1.5em;
   padding: 2em;
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
   /*border-radius: 1.5em;*/
 }
 
 .item img {
-  float: left;
   max-width: 20em;
   max-height: 20em;
   object-fit: cover;
-  margin: 0 2em 2em 0;
+  margin-bottom: 1em; /* Add margin to separate from other elements */
   border-radius: 0.5em;
 }
 
 .item button {
-  float: right;
-  margin-right: 1em;
+  margin-top: 1em; /* Add margin to separate from other elements */
 }
 
 .toggle-button {
