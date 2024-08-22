@@ -108,7 +108,7 @@ button:hover {
     font-size: 1.35em; /* Adjust as needed */
   }
 
-  h3, label, li {
+  h3, label, li, button {
     font-size: 0.9em; /* Adjust as needed */
   }
 
