@@ -188,7 +188,7 @@ return (
   <div className="footer-container">
     <p className="footer-mission">All purchases and donations support Green Country Habitat for Humanity's mission to make safe, quality, and affordable homes accessible to hardworking Tulsa area families.</p>
     <p>Donations accepted during open hours only. It is illegal to leave items when stores are closed.</p>
-    <p><a href="https://www.greencountryrestore.org/terms">See our Terms and Policies.</a></p>
+    <p>See our <a href="https://www.greencountryrestore.org/policies">Terms and Policies.</a></p>
     <p>Follow us for latest inventory:</p>
 
     <div className="footer-social">
