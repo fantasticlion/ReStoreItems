@@ -301,15 +301,16 @@ nav ul li a:hover {
 }
 
 .overlay-menu {
-  display: block;
-  justify-content: center;
+  display: flex;
+  justify-content: space-between; /* Adjust to space between the columns */
   list-style-type: none;
   padding: 0;
   margin-top: 20%;
 }
 
-.overlay-menu li {
-  margin: 20px 20px;
+.overlay-menu .original-menu,
+.overlay-menu .new-menu {
+  margin: 20px;
   display: block;
 }
 
@@ -317,19 +318,19 @@ nav ul li a:hover {
   text-decoration: none;
   font-weight: normal;
   color: rgba(44, 176, 211, 1);
-  font-size: 8.5vmin
+  font-size: 8.5vmin;
 }
 
-@media screen and (min-width: 576px ) {
-    .overlay-menu li a {
-        font-size:6.6vmin
-    }
+@media screen and (min-width: 576px) {
+  .overlay-menu li a {
+    font-size: 6.6vmin;
+  }
 }
 
-@media screen and (min-width: 768px ) {
-    .overlay-menu li a {
-        font-size:6vmin
-    }
+@media screen and (min-width: 768px) {
+  .overlay-menu li a {
+    font-size: 6vmin;
+  }
 }
 
 @media (max-width: 1024px) {
