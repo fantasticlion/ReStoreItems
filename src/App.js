@@ -193,10 +193,10 @@ return (
 
     <div className="footer-social">
       <a href="https://www.facebook.com/ReStoreTulsa1" target="_blank" rel="noopener noreferrer">
-        <img src="Instagram_icon.png" alt="Facebook" />
+        <img src="./Instagram_icon.png" alt="Facebook" />
       </a>
       <a href="https://www.instagram.com/greencountryrestore/" target="_blank" rel="noopener noreferrer">
-        <img src="Facebook_icon.png" alt="Instagram" />
+        <img src="./Facebook_icon.png" alt="Instagram" />
       </a>
     </div>
     
