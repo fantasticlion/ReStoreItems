@@ -100,7 +100,7 @@ return (
           <a href="https://www.greencountryrestore.org/locations">Locations</a>
           <div className="dropdown-content">
             <a href="https://www.greencountryrestore.org/restoretulsa">ReStore Tulsa</a>
-            <a href="https://www.greencountryrestore.org/restorerack">ReStore Rack</a>
+            <a href="https://www.greencountryrestore.org/restore-rack">ReStore Rack</a>
             <a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a>
             <a href="https://www.greencountryrestore.org/restoreclaremore">ReStore Claremore</a>
           </div>
