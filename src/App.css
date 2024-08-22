@@ -258,7 +258,7 @@ nav ul li a:hover {
   position: absolute;
   top: 20px;
   left: 20px;
-  color: #02AFD7;
+  color: rgba(44, 176, 211, 1);
   font-size: 1.7em;
   cursor: pointer;
 }
@@ -297,7 +297,7 @@ nav ul li a:hover {
 
 @media (max-width: 1024px) {
   nav {
-    min-height: 20%;
+    min-height: 20vh;
   }
   
   nav ul {
