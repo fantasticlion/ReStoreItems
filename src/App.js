@@ -12,7 +12,7 @@ function App() {
   const [total, setTotal] = useState(0);
   const [showNav, setShowNav] = useState(false); // Set to false to hide filters by default
   const [menuActive, setMenuActive] = useState(false); // State for the mobile menu
-  const [showNewMenu, setShowNewMenu] = useState(false); // State for the new  mobile menu
+  const [newMenuActive, setNewMenuActive] = useState(false); // State for the new mobile menu
 
   const allSorts = {
     productType: { method: (a, b) => (parseFloat(a.id) < parseFloat(b.id) ? -1 : 1) },
@@ -83,66 +83,70 @@ function App() {
   }
 
   const toggleNewMenu = () => {
-    setShowNewMenu(!showNewMenu);
+    setNewMenuActive(!newMenuActive);
   }
 
-return (
-  <div className="App">
-    <nav>
-      <div className="menu-icon" onClick={toggleMenu}>
-        <div className="bar top-bar"></div>
-        <div className="bar middle-bar"></div>
-        <div className="bar bottom-bar"></div>
-      </div>
-      <div className="logo">
-        <a href="https://greencountryhabitat.org/">
-          <img src="https://images.squarespace-cdn.com/content/v1/60148fcfca55b203f218fe44/78437348-4849-4744-9026-560f2ae90f51/GCReStoreLogoWhite.png" 
-               width="291" alt="Green Country Habitat for Humanity Logo"></img>
-        </a>
-      </div>
-      <ul>
-        <li className="dropdown">
-          <a href="https://www.greencountryrestore.org/locations" className="nav-locations">Locations</a>
-          <div className="dropdown-content">
-            <a href="https://www.greencountryrestore.org/restoretulsa">ReStore Tulsa</a>
-            <a href="https://www.greencountryrestore.org/restorerack">ReStore Rack</a>
-            <a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a>
-            <a href="https://www.greencountryrestore.org/restoreclaremore">ReStore Claremore</a>
-            <a href="https://fantasticlion.github.io/ReStoreItems/">ReStore Items</a>
-          </div>
-        </li>
-        <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
-        <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
-        <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
-        <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
-      </ul>
-      <div className={`overlay ${menuActive ? 'active' : ''}`} onClick={toggleMenu}>
-        <div className="close-btn">X</div>
-        <div className="overlay-menu">
-          <ul className="original-menu">
-            <li><a href="#" onClick={toggleNewMenu}>Locations</a></li>
-            <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
-            <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
-            <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
-            <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
-          </ul>
-          <ul className="new-menu">
-            <li><a href="#" onClick={toggleNewMenu}>Back</a></li>
-            <li><a href="https://www.greencountryrestore.org/restoretulsa">ReStore Tulsa</a></li>
-            <li><a href="https://www.greencountryrestore.org/restorerack">ReStore Rack</a></li>
-            <li><a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a></li>
-            <li><a href="https://www.greencountryrestore.org/restoreclaremore">ReStore Claremore</a></li>
-            <li><a href="https://fantasticlion.github.io/ReStoreItems/">ReStore Items</a></li>
-          </ul>
+  return (
+    <div className="App">
+      <nav>
+        <div className="menu-icon" onClick={toggleMenu}>
+          <div className="bar top-bar"></div>
+          <div className="bar middle-bar"></div>
+          <div className="bar bottom-bar"></div>
         </div>
-      </div>
+        <div className="logo">
+          <a href="https://greencountryhabitat.org/">
+            <img src="https://images.squarespace-cdn.com/content/v1/60148fcfca55b203f218fe44/78437348-4849-4744-9026-560f2ae90f51/GCReStoreLogoWhite.png" 
+                 width="291" alt="Green Country Habitat for Humanity Logo"></img>
+          </a>
+        </div>
+        <ul>
+          <li className="dropdown">
+            <a href="https://www.greencountryrestore.org/locations" className="nav-locations">Locations</a>
+            <div className="dropdown-content">
+              <a href="https://www.greencountryrestore.org/restoretulsa">ReStore Tulsa</a>
+              <a href="https://www.greencountryrestore.org/restorerack">ReStore Rack</a>
+              <a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a>
+              <a href="https://www.greencountryrestore.org/restoreclaremore">ReStore Claremore</a>
+              <a href="https://fantasticlion.github.io/ReStoreItems/">ReStore Items</a>
+            </div>
+          </li>
+          <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
+          <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
+          <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
+          <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
+        </ul>
+        <div className={`overlay ${menuActive ? 'active' : ''}`} onClick={toggleMenu}>
+          <div className="close-btn">X</div>
+          <div className="overlay-menu">
+            {menuActive && !newMenuActive && (
+              <ul className="original-menu">
+                <li><a href="#" onClick={toggleNewMenu}>Locations</a></li>
+                <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
+                <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
+                <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
+                <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
+              </ul>
+            )}
+            {menuActive && newMenuActive && (
+              <ul className="new-menu">
+                <li><a href="#" onClick={toggleNewMenu}>Back</a></li>
+                <li><a href="https://www.greencountryrestore.org/restoretulsa">ReStore Tulsa</a></li>
+                <li><a href="https://www.greencountryrestore.org/restorerack">ReStore Rack</a></li>
+                <li><a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a></li>
+                <li><a href="https://www.greencountryrestore.org/restoreclaremore">ReStore Claremore</a></li>
+                <li><a href="https://fantasticlion.github.io/ReStoreItems/">ReStore Items</a></li>
+              </ul>
+            )}
+          </div>
+        </div>
         {!menuActive && (
           <>
             <button className="go-to-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>To Top</button>
             <button className="go-to-bottom" onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}>To Bottom</button>
           </>
         )}
-    </nav>
+      </nav>
 
 
     {/* Conditionally render the toggle button */}
