@@ -301,7 +301,7 @@ nav ul li a:hover {
 }
 
 .overlay-menu {
-  display: flex;
+  display: block;
   justify-content: center;
   list-style-type: none;
   padding: 0;
@@ -317,19 +317,19 @@ nav ul li a:hover {
   text-decoration: none;
   font-weight: normal;
   color: rgba(44, 176, 211, 1);
-  font-size: 8.5vmin;
+  font-size: 8.5vmin
 }
 
-@media screen and (min-width: 576px) {
-  .overlay-menu li a {
-    font-size: 6.6vmin;
-  }
+@media screen and (min-width: 576px ) {
+    .overlay-menu li a {
+        font-size:6.6vmin
+    }
 }
 
-@media screen and (min-width: 768px) {
-  .overlay-menu li a {
-    font-size: 6vmin;
-  }
+@media screen and (min-width: 768px ) {
+    .overlay-menu li a {
+        font-size:6vmin
+    }
 }
 
 @media (max-width: 1024px) {
