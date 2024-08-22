@@ -116,8 +116,8 @@ function App() {
           <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
           <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
         </ul>
-        <div className={`overlay ${menuActive ? 'active' : ''}`} onClick={toggleMenu}>
-          <div className="close-btn">X</div>
+        <div className={`overlay ${menuActive ? 'active' : ''}`}>
+          <div className="close-btn" onClick={toggleMenu}>X</div>
           <div className="overlay-menu">
             {menuActive && !newMenuActive && (
               <ul className="original-menu">
