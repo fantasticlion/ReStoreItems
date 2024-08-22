@@ -184,35 +184,45 @@ return (
           </form>
         </div>
       )}
-        <footer>
-          <div className="footer-container">
-            <li>All purchases and donations support Green Country Habitat for Humanity's mission to make safe, quality, and affordable homes accessible to hardworking Tulsa area families.</li>
-            <li><a>Donations accepted during open hours only. It is illegal to leave items when stores are closed.</a></li>
-            <div className="footer-links">
-              <ul>
-                <li><a href="https://www.greencountryrestore.org/locations">Locations</a></li>
-                <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
-                <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
-                <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
-                <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
-              </ul>
-            </div>
-            <div className="footer-social">
-              <a href="https://www.facebook.com/GreenCountryReStore" target="_blank" rel="noopener noreferrer">
-                <img src="https://www.svgrepo.com/show/157818/facebook.svg" alt="Facebook" />
-              </a>
-              <a href="https://www.instagram.com/greencountryrestore/" target="_blank" rel="noopener noreferrer">
-                <img src="https://www.svgrepo.com/show/157805/instagram.svg" alt="Instagram" />
-              </a>
-              <a href="https://www.linkedin.com/company/green-country-restore/" target="_blank" rel="noopener noreferrer">
-                <img src="https://www.svgrepo.com/show/157812/linkedin.svg" alt="LinkedIn" />
-              </a>
-            </div>
-          </div>
-          <div className="footer-bottom">
-            <p>&copy; 2024 Green Country Habitat for Humanity. All Rights Reserved.</p>
-          </div>
-        </footer>
+<footer>
+  <div className="footer-container">
+    <p className="footer-mission">All purchases and donations support Green Country Habitat for Humanity's mission to make safe, quality, and affordable homes accessible to hardworking Tulsa area families.</p>
+    <p>Donations accepted during open hours only. It is illegal to leave items when stores are closed.</p>
+    <p><a href="https://www.greencountryrestore.org/terms">See our Terms and Policies.</a></p>
+    <p>Follow us for latest inventory:</p>
+
+    <div className="footer-social">
+      <a href="https://www.facebook.com/ReStoreTulsa1" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.svgrepo.com/show/157818/facebook.svg" alt="Facebook" />
+      </a>
+      <a href="https://www.instagram.com/greencountryrestore/" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.svgrepo.com/show/157805/instagram.svg" alt="Instagram" />
+      </a>
+    </div>
+    
+    <div className="footer-links">
+      <ul>
+        <li><a href="https://www.greencountryrestore.org/restoretulsa">ReStore Tulsa</a></li>
+        <li><a href="https://www.greencountryrestore.org/restore-rack">ReStore Rack</a></li>
+        <li><a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a></li>
+        <li><a href="https://www.greencountryrestore.org/restoreclaremore">ReStore Claremore</a></li>
+        <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
+        <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
+        <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
+        <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
+        <li><a href="https://www.greencountryrestore.org/donationpickup">Donation Pickup</a></li>
+      </ul>
+    </div>
+    
+    <p>Green Country Habitat for Humanity is a charitable organization under tax code 501 (c)(3), and contributions are tax deductible.</p>
+    
+    <p>
+      <a href="mailto:info@greencountryhabitat.org">info@greencountryhabitat.org</a> /
+      <a href="tel:+19183595555">918-359-5555</a>
+    </p>
+  </div>
+</footer>
+
 
     </div>
   );
