@@ -121,7 +121,7 @@ function App() {
           <div className="overlay-menu">
             {menuActive && !newMenuActive && (
               <>
-                <li><a href="#" onClick={toggleNewMenu}>Locations &gt;</a></li>
+                <li className = "underline"><a href="#" onClick={toggleNewMenu}>Locations &gt;</a></li>
                 <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
                 <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
                 <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
@@ -135,7 +135,7 @@ function App() {
                 <li><a href="https://www.greencountryrestore.org/restorerack">ReStore Rack</a></li>
                 <li><a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a></li>
                 <li><a href="https://www.greencountryrestore.org/restoreclaremore">ReStore Claremore</a></li>
-                <li><a href="https://fantasticlion.github.io/ReStoreItems/">ReStore Items</a></li>
+                <li className = "underline"><a href="https://fantasticlion.github.io/ReStoreItems/">ReStore Items</a></li>
               </>
             )}
           </div>
