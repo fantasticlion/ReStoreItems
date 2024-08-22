@@ -114,11 +114,20 @@ return (
       <div className={`overlay ${menuActive ? 'active' : ''}`} onClick={toggleMenu}>
         <div className="close-btn">X</div>
         <div className="overlay-menu">
-          <li><a href="https://www.greencountryrestore.org/locations">Locations</a></li>
-          <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
-          <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
-          <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
-          <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
+          <ul className="original-menu">
+            <li><a href="https://www.greencountryrestore.org/locations">Locations</a></li>
+            <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
+            <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
+            <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
+            <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
+          </ul>
+          <ul className="new-menu">
+            <li><a href="https://www.greencountryrestore.org/restoretulsa">ReStore Tulsa</a></li>
+            <li><a href="https://www.greencountryrestore.org/restorerack">ReStore Rack</a></li>
+            <li><a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a></li>
+            <li><a href="https://www.greencountryrestore.org/restoreclaremore">ReStore Claremore</a></li>
+            <li><a href="https://fantasticlion.github.io/ReStoreItems/">ReStore Items</a></li>
+          </ul>
         </div>
       </div>
       <button className="go-to-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>To Top</button>
