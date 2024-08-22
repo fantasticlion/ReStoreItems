@@ -308,10 +308,10 @@ nav ul li a:hover {
   margin-top: 20%;
 }
 
-/*.overlay-menu .original-menu,
+overlay-menu .original-menu,
 .overlay-menu .new-menu {
-  display: block;
-}*/
+  display: flex;
+}
 
 .overlay-menu li {
   margin: 20px 20px;
