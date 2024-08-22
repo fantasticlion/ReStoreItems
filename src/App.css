@@ -310,11 +310,6 @@ nav ul li a:hover {
 
 .overlay-menu .original-menu,
 .overlay-menu .new-menu {
-  display: none;
-}
-
-.overlay-menu .original-menu.active,
-.overlay-menu .new-menu.active {
   display: block;
 }
 
