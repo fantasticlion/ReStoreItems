@@ -212,7 +212,7 @@ nav ul li a:hover {
 }
 
 .overlay-menu {
-  position: absolute;
+  position: flex;
   justify-content: center;
   list-style-type: none;
   padding: 0;
