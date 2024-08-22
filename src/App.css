@@ -70,7 +70,6 @@ button:hover {
   display: flex;
   flex-direction: column; /* Align items vertically */
   align-items: center; /* Center items horizontally */
-  position: relative; /* Add this to position the button absolutely */
   /*border-radius: 1.5em;*/
 }
 
@@ -83,8 +82,7 @@ button:hover {
 }
 
 .item button {
-  position: absolute; /* Position the button absolutely */
-  right: 1em; /* 5em from the right */
+  margin-top: 1em; /* Add margin to separate from other elements */
 }
 
 .toggle-button {
