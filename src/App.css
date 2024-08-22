@@ -96,10 +96,6 @@ button:hover {
   color: black;
 }
 
-.overlay.active ~ .toggle-button {
-  display: none;
-}
-
 /* Responsive styles */
 @media (max-width: 768px) {
   .favorites {
