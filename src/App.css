@@ -198,7 +198,8 @@ nav ul li a:hover {
   font-weight: bold;
   color: black;
   display: none; /* Initially hidden */
-  font-size: 0.8em; /* Smaller font size */
+  font-size: 0.5em; /* Smaller font size */
+  border-radius: 0.3em;
   width: 6em; /* Ensure both buttons have the same width */
   text-align: center; /* Center the text */
 }
