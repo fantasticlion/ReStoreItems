@@ -91,6 +91,10 @@ button:hover {
   float: right;
 }
 
+.overlay.active ~ .toggle-button {
+  display: none;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
   .favorites {
@@ -200,10 +204,6 @@ nav ul li a:hover {
   background-color: white;
   z-index: 1000;
   text-align: center;
-}
-
-.overlay.active + .toggle-button {
-  display: none;
 }
 
 .overlay .close-btn {
