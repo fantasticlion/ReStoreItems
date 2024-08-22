@@ -241,8 +241,21 @@ nav ul li a:hover {
 
 .overlay-menu li a {
   text-decoration: none;
-  color: #02AFD7;
-  font-size: 41px; /* Set font size to 41px */
+  font-weight: normal;
+  color: rgba(44, 176, 211, 1);
+  font-size: 8.5vmin
+}
+
+@media screen and (min-width: 576px ) {
+    .overlay-menu li a {
+        font-size:6.6vmin
+    }
+}
+
+@media screen and (min-width: 768px ) {
+    .overlay-menu li a {
+        font-size:6vmin
+    }
 }
 
 @media (max-width: 1024px) {
