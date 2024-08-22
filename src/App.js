@@ -100,7 +100,7 @@ return (
           <a href="https://www.greencountryrestore.org/locations">Locations</a>
           <div className="dropdown-content">
             <a href="https://www.greencountryrestore.org/restoretulsa">ReStore Tulsa</a>
-            <a href="https://www.greencountryrestore.org/restore-rack">ReStore Rack</a>
+            <a href="https://www.greencountryrestore.org/restorerack">ReStore Rack</a>
             <a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a>
             <a href="https://www.greencountryrestore.org/restoreclaremore">ReStore Claremore</a>
           </div>
@@ -120,7 +120,10 @@ return (
           <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
         </div>
       </div>
+      <button className="go-to-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Top</button>
+      <button className="go-to-bottom" onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}>Bottom</button>
     </nav>
+
 
     {/* Conditionally render the toggle button */}
     {!menuActive && (
