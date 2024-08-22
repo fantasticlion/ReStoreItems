@@ -85,7 +85,7 @@ button:hover {
 
 .toggle-button {
   position: fixed; 
-  top: 1em; 
+  top: 1.1em; 
   right: 2em; 
   z-index: 1001; 
   background-color: rgba(198, 214, 43, 1); 
