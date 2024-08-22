@@ -85,10 +85,19 @@ button:hover {
 }
 
 .toggle-button {
-  position: fixed;
-  top: 0.5em;
-  right: 2em;
-  float: right;
+  position: fixed; 
+  top: 1em; 
+  right: 2em; 
+  z-index: 1001; 
+  background-color: rgba(198, 214, 43, 1); 
+  border: none;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  color: black;
+}
+
+.overlay.active ~ .toggle-button {
+  display: none;
 }
 
 /* Responsive styles */
