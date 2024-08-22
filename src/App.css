@@ -64,7 +64,7 @@ button:hover {
 
 .item {
   background-color: rgba(44, 176, 211, 1);
-  width: 35em;
+  width: 25em;
   margin: 1.5em;
   padding: 2em;
   display: flex;
@@ -130,13 +130,13 @@ button:hover {
   }
 
   .item {
-    width: 100%;
+    max-width: 100%;
     margin: 1em 0;
   }
 
   .item img {
-    max-width: 100%;
-    margin: 0 4em 4em 0;
+    max-max-width: 100%;
+    margin: 0 0 1em 0;
   }
 }
 
