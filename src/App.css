@@ -294,7 +294,7 @@ nav ul li a:hover {
 .overlay .close-btn {
   position: absolute;
   top: 20px;
-  left: 20px;
+  left: 29px;
   color: rgba(44, 176, 211, 1);
   font-size: 1.7em;
   cursor: pointer;
@@ -351,11 +351,11 @@ nav ul li a:hover {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    padding: 29px; /* Add padding of 29px around the logo */
+    padding: 4vw;
   }
 
   nav .logo img {
-    max-width: 80px; /* Ensure the logo's max width is 80px */
+    max-height: 15vw;
   }
 
   .overlay {
