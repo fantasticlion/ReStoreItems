@@ -72,10 +72,10 @@ button:hover {
 
 .item img {
   float: left;
-  max-width: 20em;
-  max-height: 20em;
+  max-width: 16em;
+  max-height: 16em;
   object-fit: cover;
-  margin: 0 6em 5em 0;
+  margin: 0 8em 8em 0;
   border-radius: 0.5em;
 }
 
