@@ -197,8 +197,9 @@ nav ul li a:hover {
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
+  color: white;
+  text-alignment: right;
+  padding: 0.6em 1em 0.6em 2em;
   font-weight: bold;
   font-size: 16.5px;
   text-decoration: none;
