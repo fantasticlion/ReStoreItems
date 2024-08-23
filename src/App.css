@@ -82,8 +82,9 @@ button:hover {
 }
 
 .item button {
-  align-self: flex-end; /* Align button to the right */
+  position: fixed;
   margin-right: 2em;
+  margin-bottom: 1em;
 }
 
 .toggle-button {
