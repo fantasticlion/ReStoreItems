@@ -119,7 +119,7 @@ button:hover {
 }
 
 /* Responsive styles */
-@media (max-width: 1024px) {
+@media (max-width: 1053px) {
   h1 {
     font-size: 1.5em; /* Adjust as needed */
     padding-left: 5%;
@@ -232,7 +232,7 @@ nav ul li a:hover {
 }
 
 /* Show buttons in mobile view */
-@media (max-width: 1024px) {
+@media (max-width: 1053px) {
   .go-to-top, .go-to-bottom {
     display: block;
   }
@@ -355,7 +355,7 @@ nav ul li a:hover {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1053px) {
   nav {
     min-height: 23vw;
   }
