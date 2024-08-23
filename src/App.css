@@ -283,12 +283,12 @@ nav ul li a:hover {
 .menu-icon .bar {
   width: 37.5px;
   height: 2px;
-  margin: 8px 8px;
+  margin: 8px 0;
   transition: 0.4s;
 }
 
 .top-bar {
-  background-color: rgb(149,205,222,255);
+  background-color: rgb(255,255,255,255);
 }
 
 .middle-bar {
@@ -296,7 +296,7 @@ nav ul li a:hover {
 }
 
 .bottom-bar {
-  background-color: rgb(149,205,222,255);
+  background-color: rgb(255,255,255,255);
 }
 
 .overlay {
