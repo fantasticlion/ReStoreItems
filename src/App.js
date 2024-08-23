@@ -117,7 +117,7 @@ function App() {
         </div>
         <ul>
           <li className="dropdown">
-            <a href="https://www.greencountryrestore.org/locations" className="nav-locations">Locations</a>
+            <a className="nav-locations">Locations</a>
             <div className="dropdown-content">
               <a href="https://www.greencountryrestore.org/restoretulsa">ReStore Tulsa</a>
               <a href="https://www.greencountryrestore.org/restorerack">ReStore Rack</a>
@@ -136,7 +136,7 @@ function App() {
           <div className="overlay-menu">
             {menuActive && !newMenuActive && (
               <>
-                <li><a href="#" onClick={toggleNewMenu} className="underline">Locations &gt;</a></li>
+                <li><a onClick={toggleNewMenu} className="underline">Locations &gt;</a></li>
                 <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
                 <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
                 <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
@@ -145,7 +145,7 @@ function App() {
             )}
             {menuActive && newMenuActive && (
               <>
-                <li><a href="#" onClick={toggleNewMenu}>&lt; Back</a></li>
+                <li><a onClick={toggleNewMenu}>&lt; Back</a></li>
                 <li><a href="https://www.greencountryrestore.org/restoretulsa">ReStore Tulsa</a></li>
                 <li><a href="https://www.greencountryrestore.org/restorerack">ReStore Rack</a></li>
                 <li><a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a></li>
