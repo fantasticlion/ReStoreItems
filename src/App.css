@@ -77,7 +77,7 @@ button:hover {
   max-width: 20em;
   max-height: 20em;
   object-fit: cover;
-  margin-bottom: 1em; /* Add margin to separate from other elements */
+  /*margin-bottom: 1em; Add margin to separate from other elements */
   border-radius: 0.5em;
 }
 
