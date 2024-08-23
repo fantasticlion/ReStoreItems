@@ -43,6 +43,17 @@ button:hover {
   z-index: 1000;
 }
 
+.favorites .filtering h3 + input[type="checkbox"] + label {
+  display: inline-block;
+  width: 45%;
+  margin-right: 5%;
+  box-sizing: border-box;
+}
+
+.favorites .filtering h3 + input[type="checkbox"] + label:nth-child(odd) {
+  margin-right: 0;
+}
+
 .favorites input {
   margin-bottom: 0.9em;
 }
