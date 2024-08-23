@@ -221,7 +221,6 @@ nav ul li a:hover {
   display: none; /* Initially hidden */
   font-size: 0.75em; /* Smaller font size */
   border-radius: 0.3em;
-  width: 6em; /* Ensure both buttons have the same width */
   text-align: center; /* Center the text */
 }
 
