@@ -119,9 +119,8 @@ button:hover {
   .favorites {
     width: 100%;
     top: 0;
-    padding: 0 20vw;
     z-index: 1000;
-    text-align: left;
+    text-align: center;
   }
 
   .toggle-button {
