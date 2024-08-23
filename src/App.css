@@ -82,7 +82,7 @@ button:hover {
 }
 
 .item button {
-  position: fixed;
+  position: absolute;
   margin-right: 2em;
   margin-bottom: 1em;
 }
