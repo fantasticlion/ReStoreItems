@@ -283,7 +283,7 @@ nav ul li a:hover {
 .menu-icon .bar {
   width: 37.5px;
   height: 2px;
-  margin: 5px 0;
+  margin: 8px 8px;
   transition: 0.4s;
 }
 
