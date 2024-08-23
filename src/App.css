@@ -69,7 +69,7 @@ button:hover {
   padding: 2em;
   display: flex;
   flex-direction: column; /* Align items vertically */
-  align-items: center; /* Center items horizontally */
+  align-items: left; /* Center items horizontally */
   position: relative;
   /*border-radius: 1.5em;*/
 }
