@@ -90,7 +90,7 @@ button:hover {
 
 .toggle-button {
   position: fixed; 
-  top: 0.8em; 
+  top: 0.7em; 
   right: 2em; 
   z-index: 1001; 
   background-color: rgba(198, 214, 43, 1); 
