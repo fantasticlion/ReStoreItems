@@ -39,8 +39,15 @@ button:hover {
   top: 4em;
   right: 0;
   padding: 0 0 2em 2.5em;
-  /*border-radius: 1em 0 0 1em;*/
   z-index: 1000;
+}
+
+.favorites h3 {
+  font-size: 2vh;
+}
+
+.favorites label {
+  font-size: 1.8vh;
 }
 
 .favorites input {
@@ -54,6 +61,7 @@ button:hover {
   border: none;
   padding: 0.5em 1em;
   margin-top: 1em;
+  font-size: 2vh;
 }
 
 .release-time-container {
