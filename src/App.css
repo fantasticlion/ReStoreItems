@@ -119,7 +119,7 @@ button:hover {
   .favorites {
     width: 100%;
     top: 0;
-    padding: 0 1em;
+    padding: 0 20vw;
     z-index: 1000;
     text-align: left;
   }
