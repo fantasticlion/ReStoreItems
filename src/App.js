@@ -117,7 +117,7 @@ function App() {
         </div>
         <ul>
           <li className="dropdown">
-            <a className="nav-locations">Locations</a>
+            <a href="" className="nav-locations">Locations</a>
             <div className="dropdown-content">
               <a href="https://www.greencountryrestore.org/restoretulsa">ReStore Tulsa</a>
               <a href="https://www.greencountryrestore.org/restorerack">ReStore Rack</a>
