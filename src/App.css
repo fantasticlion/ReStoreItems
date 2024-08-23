@@ -62,7 +62,7 @@ button:hover {
 }
 
 .release-time-item {
-  width: 12.5em; /* Each item takes up half the width of the container */
+  width: 50%; /* Each item takes up half the width of the container */
   box-sizing: border-box;
   /*padding: 0.1em 0;*/
 }
