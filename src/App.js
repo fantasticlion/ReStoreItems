@@ -120,7 +120,7 @@ function App() {
             <a href="" className="nav-locations">Locations</a>
             <div className="dropdown-content">
               <a href="https://www.greencountryrestore.org/restoretulsa">ReStore Tulsa</a>
-              <a href="https://www.greencountryrestore.org/restorerack">ReStore Rack</a>
+              <a href="https://www.greencountryrestore.org/restore-rack">ReStore Rack</a>
               <a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a>
               <a href="https://www.greencountryrestore.org/restoreclaremore">ReStore Claremore</a>
               <a href="https://fantasticlion.github.io/ReStoreItems/">ReStore Items</a>
@@ -147,7 +147,7 @@ function App() {
               <>
                 <li><a onClick={toggleNewMenu}>&lt; Back</a></li>
                 <li><a href="https://www.greencountryrestore.org/restoretulsa">ReStore Tulsa</a></li>
-                <li><a href="https://www.greencountryrestore.org/restorerack">ReStore Rack</a></li>
+                <li><a href="https://www.greencountryrestore.org/restore-rack">ReStore Rack</a></li>
                 <li><a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a></li>
                 <li><a href="https://www.greencountryrestore.org/restoreclaremore">ReStore Claremore</a></li>
                 <li><a href="https://fantasticlion.github.io/ReStoreItems/" className="underline">ReStore Items</a></li>
