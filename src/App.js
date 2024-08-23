@@ -86,6 +86,21 @@ function App() {
     setNewMenuActive(!newMenuActive);
   }
 
+  // Disable horizontal scrolling when scale is 1
+  function disableHorizontalScroll() {
+    if (window.visualViewport.scale === 1) {
+      document.body.style.overflowX = 'hidden';
+    } else {
+      document.body.style.overflowX = 'auto';
+    }
+  }
+
+  // Disable horizontal scrolling on page load if scale is 1
+  disableHorizontalScroll();
+
+  // Add an event listener for when the viewport changes (e.g., zooming)
+  window.visualViewport.addEventListener('resize', disableHorizontalScroll);
+
   return (
     <div className="App">
       <nav>
