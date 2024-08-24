@@ -434,7 +434,7 @@ footer {
 }
 
 .footer-links ul li {
-  display: inline;
+  display: inline-block;
   margin-right: 1em;
   font-size: 1em;
   font-weight: normal;
