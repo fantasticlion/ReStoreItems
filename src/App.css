@@ -427,6 +427,10 @@ footer {
   color: white;
 }
 
+.footer-container p {
+  font-size: 1em;
+}
+
 .footer-links ul {
   list-style-type: none;
   padding: 0;
