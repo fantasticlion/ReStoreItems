@@ -22,4 +22,4 @@ The user triggers state changes by:
 - Picking a different sorting method (the default method is to sort by product type).
 - Filtering the products by their types or release dates.
 - Adding or removing a product to/from their favorite list.
-- Feel free to adjust any details or add more information as needed! If you have any other questions or need further assistance, just let me know.
+Feel free to adjust any details or add more information as needed! If you have any other questions or need further assistance, just let me know.
