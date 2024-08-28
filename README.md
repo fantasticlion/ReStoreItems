@@ -4,7 +4,7 @@
 [ReStore Items](https://fantasticlion.github.io/ReStoreItems/)
 
 ### Goal and Value of the Application
-The application allows users to browse different products available at Green Country ReStores and sort them by price and filter them by product type or release date. Users can also pick their favorite products.
+The application allows users to browse different products available at Green Country ReStores and sort them by price and filter them by product type or release date. Users can also calculate the total price of their select products.
 
 ### Organization of Components
 These components are included in this application:
