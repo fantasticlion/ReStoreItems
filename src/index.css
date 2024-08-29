@@ -1,10 +1,11 @@
 body {
   margin: 0;
-  background-image: url('https://github.com/fantasticlion/ReStoreItems/blob/main/src/background.png?raw=true');
+  background: linear-gradient(
+      rgba(235, 235, 235, 0.7), 
+      rgba(235, 235, 235, 0.7)
+    ),
+    url('https://github.com/fantasticlion/ReStoreItems/blob/main/src/background.png?raw=true') no-repeat center center fixed;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  opacity: 0.98; /* Make the background image opaque */
   font-family: Arial;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
