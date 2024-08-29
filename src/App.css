@@ -1,9 +1,13 @@
 /* Common styles */
-h1, h2, h3, li {
+h2, h3, li {
   color: rgb(32, 59, 93);
 }
 
 h1 {
+  color: white;
+  padding: 5vh 0 5vh 0;
+  margin: 2.5vh 0 5vh 0;
+  background-color: rgb(32, 59, 93);
   text-align: center;
   font-size: 3em;
 }
