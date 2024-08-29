@@ -1,8 +1,8 @@
 body {
   margin: 0;
   background: linear-gradient(
-      rgba(235, 235, 235, 0.7), 
-      rgba(235, 235, 235, 0.7)
+      rgba(235, 235, 235, 0.6), 
+      rgba(235, 235, 235, 0.6)
     ),
     url('https://github.com/fantasticlion/ReStoreItems/blob/main/src/background.png?raw=true') no-repeat center center fixed;
   background-size: cover;
